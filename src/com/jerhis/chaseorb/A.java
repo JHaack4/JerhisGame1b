@@ -38,6 +38,7 @@ public class A {
 		midTile, orb, smoke, star, snowTile, stoneTile, touchTile, warp;
 	public static MyButtonGroup mainB, returnB, failB, finishB, pauseB, saveB, helpB;
 	//public static Sound bounceSound;
+    //test
 	
 	
 	public static void load() {
