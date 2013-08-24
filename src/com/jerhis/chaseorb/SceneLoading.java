@@ -1,0 +1,52 @@
+package com.jerhis.chaseorb;
+
+import org.andengine.entity.sprite.Sprite;
+
+public class SceneLoading extends SceneBase {
+	
+	public SceneLoading() {
+		super();
+		loadScene();
+	}
+	
+	@Override
+	public void update(float deltaTime) {
+		if (time > 200)
+			switchScene(new SceneMainMenu());
+	}
+
+	@Override
+	public void touch(int action, int pointerID, float x, float y) {
+		
+	}
+
+	Sprite s;
+	@Override
+	public void loadScene() {
+		s = new Sprite(0,0,A.menu,A.vbom);
+		attachChild(s);
+		A.load();
+	}
+
+	@Override
+	public void disposeScene() {
+		detachChild(s);
+	}
+
+	@Override
+	public void onBackKeyPressed() {
+		
+	}
+
+	@Override
+	public void onPause() {
+		
+	}
+
+	@Override
+	public void onResume() {
+		
+	}
+
+
+}
