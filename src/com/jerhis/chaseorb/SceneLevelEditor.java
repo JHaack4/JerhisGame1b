@@ -2,7 +2,7 @@ package com.jerhis.chaseorb;
 
 public class SceneLevelEditor extends SceneBase {
 	
-	public SceneLevelEditor() {
+	public SceneLevelEditor(int k) {
 		super();
 		loadScene();
 	}

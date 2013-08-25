@@ -6,7 +6,7 @@ Graphics: Isaac Schwab
 TODO LIST Jordan:
 =========
 -re code in level editor
--preload menus for improved performance
+-pre load menus for improved performance
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,
 -revise: bomb (smoke is 5x5)
@@ -18,7 +18,7 @@ TODO LIST Jordan:
 -pause on resume from home button
 -locked finished (gradual entry to finish tile, on chaser anim)
 -spike blocks that shoot up every so often, if you are on them then you die
--upload through trueted library (eclipse) after replace assets & classes
+-upload through trusted library (eclipse) after replace assets & classes
 
 TODO LIST Ike:
 =========

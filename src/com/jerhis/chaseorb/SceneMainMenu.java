@@ -27,11 +27,10 @@ public class SceneMainMenu extends SceneBase {
         }
 	}
 
-	Sprite bgS;
 	@Override
 	public void loadScene() {
 		A.m("main");
-		bgS = new Sprite(0,0,A.menu,A.vbom);
+		Sprite bgS = new Sprite(0,0,A.menu,A.vbom);
 		attachChild(bgS);
 		A.mainB.attachButtons(this);
 	}
@@ -39,7 +38,6 @@ public class SceneMainMenu extends SceneBase {
 	@Override
 	public void disposeScene() {
 		A.mainB.detachButtons(this);
-		detachChild(bgS);
 	}
 
 	@Override

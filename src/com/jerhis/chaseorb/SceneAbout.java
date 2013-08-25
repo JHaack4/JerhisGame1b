@@ -16,18 +16,22 @@ public class SceneAbout extends SceneBase {
 
 	@Override
 	public void touch(int action, int pointerID, float x, float y) {
-		
+		switch(A.returnB.touch(action,pointerID,x,y))
+        {
+            case 0: onBackKeyPressed();
+        }
 	}
 
 	@Override
 	public void loadScene() {
 		A.m("about");
 		attachChild(new Sprite(0,0,A.menu,A.vbom));
+        A.returnB.attachButtons(this);
 	}
 
 	@Override
 	public void disposeScene() {
-		
+        A.returnB.detachButtons(this);
 	}
 
 	@Override
