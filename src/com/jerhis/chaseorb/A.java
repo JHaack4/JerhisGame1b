@@ -109,7 +109,7 @@ public class A {
 		metalTile = t("metaltile", 1);
 		midTile = t("midtile", 1);
 		orb = t("orb", 1);
-		smoke = t("smoke", 4);
+		smoke = tt("smoke", 6,5);
 		star = t("star", 1);
 		snowTile = t("snowtile", 1);
 		stoneTile = t("stonetile", 1);
