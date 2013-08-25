@@ -93,7 +93,7 @@ public class A {
 		finishTile = t("finish", 10);
 		finishMedal = t("finishmedal", 4);
 		finishStar = t("finishstar", 4);
-		fireTile = t("firetile", 10);
+		fireTile = t("firetile", 50);
 		glassTile = t("glasstile", 1);
 		grassTile = t("grasstile", 1);
 		halfTile = t("halftile", 1);
@@ -192,21 +192,36 @@ public class A {
 			return null;
 		}
 	}
-	public static ITiledTextureRegion t(final String file, final int num) {	
-		try {
-			ITexture mTexture = new BitmapTexture(activity.getTextureManager(), new IInputStreamOpener() {
-				@Override
-				public InputStream open() throws IOException {
-					return activity.getAssets().open("gfx/" + file + ".png");
-				}
-			});
-			mTexture.load();
-			return TextureRegionFactory.extractTiledFromTexture(mTexture, num, 1);
-		} catch (IOException e) {
-			Debug.e(e);
-			return null;
-		}
-	}
+	public static ITiledTextureRegion t(final String file, final int num) {
+        try {
+            ITexture mTexture = new BitmapTexture(activity.getTextureManager(), new IInputStreamOpener() {
+                @Override
+                public InputStream open() throws IOException {
+                    return activity.getAssets().open("gfx/" + file + ".png");
+                }
+            });
+            mTexture.load();
+            return TextureRegionFactory.extractTiledFromTexture(mTexture, num, 1);
+        } catch (IOException e) {
+            Debug.e(e);
+            return null;
+        }
+    }
+    public static ITiledTextureRegion tt(final String file, final int num, final int high) {
+        try {
+            ITexture mTexture = new BitmapTexture(activity.getTextureManager(), new IInputStreamOpener() {
+                @Override
+                public InputStream open() throws IOException {
+                    return activity.getAssets().open("gfx/" + file + ".png");
+                }
+            });
+            mTexture.load();
+            return TextureRegionFactory.extractTiledFromTexture(mTexture, num, high);
+        } catch (IOException e) {
+            Debug.e(e);
+            return null;
+        }
+    }
 	public static Sound s(String file) {
 		SoundFactory.setAssetBasePath("mfx/");
 		try {

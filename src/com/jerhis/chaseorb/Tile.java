@@ -97,7 +97,7 @@ public abstract class Tile extends TiledSprite {
     {
         if (chaser.sideVelocity > 0) {
             chaser.sideVelocity = 0;
-            chaser.coord.x = coord.x - C.blocksSize + 1;
+            chaser.coord.x = coord.x - C.blocksSize;
         }
     }
 
@@ -105,7 +105,7 @@ public abstract class Tile extends TiledSprite {
     {
         if (chaser.sideVelocity < 0) {
             chaser.sideVelocity = 0;
-            chaser.coord.x = coord.x + C.blocksSize - 1;
+            chaser.coord.x = coord.x + C.blocksSize;
         }
     }
 
