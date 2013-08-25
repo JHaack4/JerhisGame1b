@@ -41,6 +41,7 @@ public class TileBasic extends Tile {
 		case '^': return A.snowTile;
 		case '~': return A.grassTile;
 		case '_': return A.iceTile;
+        case ']': return A.fireBaseTile;
 		}
 		return A.basicTile;
 	}

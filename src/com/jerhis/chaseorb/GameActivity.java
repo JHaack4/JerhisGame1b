@@ -20,6 +20,7 @@ public class GameActivity extends BaseGameActivity {
 		camera = new Camera(0,0,1280,800);
 		EngineOptions eo = new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new FillResolutionPolicy(), camera);
 		eo.getAudioOptions().setNeedsSound(true);
+        eo.getTouchOptions().setNeedsMultiTouch(true);
 		return eo;
 	}
 	

@@ -32,7 +32,7 @@ public class A {
 	public static ITextureRegion tAbout, tHelp, tLE, tLS, tNL, tPlay, tQuit, 
 		tResume, tRetry, tReturn, tSave;
 	public static ITiledTextureRegion buttonDefault, chaser, cloudTile, basicTile, 
-		bomb, dirtTile, emptyTile, finishTile, finishMedal, finishStar, fireTile, 
+		bomb, dirtTile, emptyTile, finishTile, fireBaseTile, finishMedal, finishStar, fireTile,
 		glassTile, grassTile, halfTile, iceTile, keyRed, keyBlue, keyYellow, 
 		keyHoleRed, keyHoleBlue, keyHoleYellow, levelMedal, levelStar, metalTile, 
 		midTile, orb, smoke, star, snowTile, stoneTile, touchTile, warp;
@@ -94,6 +94,7 @@ public class A {
 		finishMedal = t("finishmedal", 4);
 		finishStar = t("finishstar", 4);
 		fireTile = t("firetile", 50);
+        fireBaseTile = t("firebasetile", 1);
 		glassTile = t("glasstile", 1);
 		grassTile = t("grasstile", 1);
 		halfTile = t("halftile", 1);

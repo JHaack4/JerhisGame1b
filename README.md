@@ -9,7 +9,7 @@ TODO LIST Jordan:
 -pre load menus for improved performance
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,
--revise: bomb (smoke is 5x5)
+-revise smoke
 -improve collisions (on final chaser)
 -animate chasers (jumps, face both ways, finishing, death)
 -animate bg objects (possibly)

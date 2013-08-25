@@ -17,6 +17,7 @@ public class LevelStorage {
     'b<' : dirt tile
     'b~' : grass tile
     'b_' : ice tile
+    'b]' : fire base tile
 
     'xx' : bomb tile
 
@@ -73,7 +74,7 @@ public class LevelStorage {
                         "              Oakrf!kr          " +
                         "              Ca  b+      Cb    " +
                         "        tetftfb+b+c/d*b+b+b+    " +
-                        "b~  w1            c-c/  c/      " +
+                        "b~  w1            c-b]  c/      " +
                         "b+kb                            " +
                         "b<Krb+                  xx      " +
                         "b<h+h+h+h+            w0  c-b+d*" +
