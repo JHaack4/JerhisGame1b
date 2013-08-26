@@ -99,7 +99,7 @@ public class A {
 		finishTile = t("finish", 10);
 		finishMedal = t("finishmedal", 4);
 		finishStar = t("finishstar", 4);
-		fireTile = t("firetile", 50);
+		fireTile = tt("firetile", 15,4);
         fireBaseTile = t("firebasetile", 1);
 		glassTile = t("glasstile", 1);
 		grassTile = t("grasstile", 1);
