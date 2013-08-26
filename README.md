@@ -5,7 +5,7 @@ Graphics: Isaac Schwab
 
 TODO LIST Jordan:
 =========
--re code in level editor
+-error with java.lang.IndexOutOfBoundsException: Invalid index 122, size is 122
 -pre load menus for improved performance
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,
@@ -27,9 +27,7 @@ TODO LIST Ike:
 2-make 6 different colors of orbs/chasers
 2-anim gems (or make a new orb)
 3-bomb tile
-3-smoke anim for bomb
 5-anim chaser (take 2)
-5-anim fire tile
 7-new backgrounds: desert, ocean, forest, jungle, prairie, city, building
 7-non unique functioning new tiles: wood, glass, spikes, lava
 8-pack screens
