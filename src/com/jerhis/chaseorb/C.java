@@ -35,7 +35,7 @@ public class C {
     public static int editorSelectWidth = 350, editorCurrentBlockX = 600, editorCurrentBlockY = 660;
     public static String fileName = "lvld", defaultLevelName = "le";
     public static int specialLoadConstant = -1;
-    public static int[][] medalLocs = {{400,140},{400,240},{400,340},{600,140},{600,240},{600,340},{400,540},{400,640},{400,740},{600,540},{600,640},{600,740},{400,940},{400,1040},{400,1140},{600,940},{600,1040},{600,1140},{500,240},{500,640},{500,1040}};
+    public static int[][] medalLocs = {{400,140},{400,240},{400,340},{600,140},{600,240},{600,340},{400,540},{400,640},{400,740},{600,540},{600,640},{600,740},{400,940},{400,1040},{400,1140},{600,940},{600,1040},{600,1140},{450,240},{450,640},{450,1040}};
     public static int medalWidth = 75, paintSize = 75;
 
     //file header for pack

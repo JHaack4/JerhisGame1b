@@ -63,7 +63,7 @@ public class SceneGame extends SceneBase {
 			break;
 		case Finish:
 			switch (A.finishB.touch(action, pointerID, x, y)) {
-			case 0: nextLevel(); break;
+			case 0: if (level.packID == -1) levelSelect(); else nextLevel(); break;
 			case 1: retry(); break;
 			case 2: levelSelect(); break;
 			}

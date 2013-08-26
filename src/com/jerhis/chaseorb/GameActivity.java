@@ -67,7 +67,7 @@ public class GameActivity extends BaseGameActivity {
 				256, 256, Typeface.create(Typeface.DEFAULT, Typeface.BOLD), 64);
 		A.mFont.load();
 		A.bigFont = FontFactory.create(this.getFontManager(), this.getTextureManager(), 
-				256, 256, Typeface.create(Typeface.DEFAULT, Typeface.BOLD), 128, Color.WHITE.hashCode());
+				512, 512, Typeface.create(Typeface.DEFAULT, Typeface.BOLD), 128, Color.WHITE.hashCode());
 		A.bigFont.load();
 		A.fileLocation = getFilesDir();
 		A.prepare(mEngine, this, camera, getVertexBufferObjectManager());
