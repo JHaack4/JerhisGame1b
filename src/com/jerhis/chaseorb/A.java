@@ -37,12 +37,18 @@ public class A {
 		keyHoleRed, keyHoleBlue, keyHoleYellow, levelMedal, levelStar, metalTile, 
 		midTile, orb, smoke, star, snowTile, stoneTile, touchTile, warp;
 	public static MyButtonGroup mainB, returnB, failB, finishB, pauseB, saveB, helpB;
+    public static ArrayList<String> backgrounds = new ArrayList<String>();
 	//public static Sound bounceSound;
     //test
 	
 	
 	public static void load() {
 		b("");
+        backgrounds.add("");
+        backgrounds.add("moon");
+        backgrounds.add("night");
+        backgrounds.add("sunset");
+
 		
 		//buttons
 		buttonDefault = t("button",2);

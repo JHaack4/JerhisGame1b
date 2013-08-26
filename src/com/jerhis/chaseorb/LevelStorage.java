@@ -63,10 +63,13 @@ public class LevelStorage {
 
     public static String getLevelString(int packID, int levelNum)
     {
-        if (packID == -1) return A.readFromMemory(C.fileName + levelNum + ".txt");
+        if (packID == -1) {
+            String j = A.readFromMemory(C.fileName + levelNum + ".txt");
+            if (!j.equals("")) return j;
+        }
         switch (packID * 100 + levelNum)
         {
-            case -1: //return ScreenLevelEditor.levelName + "#" + ScreenLevelEditor.backgroundString + "#" + ScreenLevelEditor.starString + "#" + ScreenLevelEditor.medalString + "#" + ScreenLevelEditor.levelString;
+            case -1: return SceneLevelEditor.levelName + "#" + SceneLevelEditor.backgroundString + "#" + SceneLevelEditor.starString + "#" + SceneLevelEditor.medalString + "#" + SceneLevelEditor.levelString;
             case 1:
                 return "test1##(200,50)$(120,600)$(1200,150)#7.77$15.01$25.40#" +
                         "  w0                            " +
