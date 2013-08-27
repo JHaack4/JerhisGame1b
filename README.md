@@ -5,7 +5,7 @@ Graphics: Isaac Schwab
 
 TODO LIST Jordan:
 =========
--error with java.lang.IndexOutOfBoundsException: Invalid index 122, size is 122
+-menu disappears
 -pre load menus for improved performance
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,

@@ -207,6 +207,9 @@ public class A {
 	
 	
     //MENU/BG stuff
+    //about, block, buy, editor, editorselect, fail, finish, help, level, main, medal, pack, pause, ready, splash, toomanywarps
+    //public static ITextureRegion[] menuArray = new ITextureRegion[16];
+    //public static boolean[] menuBooleans = new boolean[16];
     public static void m(String menuFile) {
         if (menuFile.equals(currentMenu)) return;
         currentMenu = menuFile;

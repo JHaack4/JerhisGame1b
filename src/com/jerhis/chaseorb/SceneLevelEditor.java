@@ -90,6 +90,10 @@ public class SceneLevelEditor extends SceneBase {
 	
 	@Override
 	public void update(float deltaTime) {
+        if (switchReady) {
+            switchTo2(ss);
+            switchReady = false;
+        }
         switch (state) { //update
             case Test:
                 levelTime += deltaTime;
@@ -112,11 +116,13 @@ public class SceneLevelEditor extends SceneBase {
     public Sprite warpIcon, selectedBlock;
     public Tile[][] tempLevel;
 	@Override
-	public void touch(int action, int pointerID, float x, float y) {
+	public void touch(final int action, final int pointerID, final float x, final float y) {
+
+
         switch (state) { //Touch
             case Block:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
-                    onBackKeyPressed();
+                    back();
                     return;
                 }
                 if (action == TouchEvent.ACTION_DOWN && x < C.width - C.blocksSize) {
@@ -129,7 +135,7 @@ public class SceneLevelEditor extends SceneBase {
                 break;
             case Placement:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
-                    onBackKeyPressed();
+                    back();
                     return;
                 }
                 if (action == TouchEvent.ACTION_DOWN) {
@@ -172,7 +178,7 @@ public class SceneLevelEditor extends SceneBase {
                 break;
             case Warps:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
-                    onBackKeyPressed();
+                    back();
                     return;
                 }
 
@@ -221,13 +227,13 @@ public class SceneLevelEditor extends SceneBase {
                 break;
             case Test:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
-                    onBackKeyPressed();
+                    back();
                     return;
                 }
                 GameRunner.orbsByTouch(action,pointerID,x,y,level.orbs,level.tiles);
                 break;
             case TooManyWarps:
-                if (action == TouchEvent.ACTION_DOWN) onBackKeyPressed();
+                if (action == TouchEvent.ACTION_DOWN) back();
                 break;
             case Save:
                 switch (A.saveB.touch(action,pointerID,x,y)) {
@@ -247,13 +253,13 @@ public class SceneLevelEditor extends SceneBase {
                         leave();
                         break;
                     case 2:
-                        onBackKeyPressed();
+                        back();
                         break;
                 }
                 break;
             case Medal:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
-                    onBackKeyPressed();
+                    back();
                     return;
                 }
                 try {
@@ -317,7 +323,7 @@ public class SceneLevelEditor extends SceneBase {
                 break;
             case Star:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
-                    onBackKeyPressed();
+                    back();
                     return;
                 }
 
@@ -369,6 +375,9 @@ public class SceneLevelEditor extends SceneBase {
                 starString = level.stars.get(0).coord.toString(true) + "$" + level.stars.get(1).coord.toString(true) + "$" + level.stars.get(2).coord.toString(true);
                 break;
         }
+
+
+
 	}
 
 	@Override
@@ -383,6 +392,10 @@ public class SceneLevelEditor extends SceneBase {
 
 	@Override
 	public void onBackKeyPressed() {
+
+	}
+
+    public void back() {
         if (state == EditorType.Select) {
 
         }
@@ -391,7 +404,7 @@ public class SceneLevelEditor extends SceneBase {
             switchTo(EditorType.Select);
             selected = false;
         }
-	}
+    }
 
 	@Override
 	public void onPause() {
@@ -404,8 +417,15 @@ public class SceneLevelEditor extends SceneBase {
 	}
 
     public ArrayList<Sprite> tilesListSprite = new ArrayList<Sprite>();
+    public boolean switchReady = false;
+    public EditorType ss;
     public void switchTo(EditorType s) {
+        ss = s;
+        switchReady = true;
 
+    }
+
+    public void switchTo2(EditorType s) {
         switch (state) { //DELOAD
             case Block:
                 detachChild(overlay);
@@ -421,7 +441,6 @@ public class SceneLevelEditor extends SceneBase {
                     spr.detachSelf();
                 }
                 tilesListSprite.clear();
-                tempLevel = null;
                 break;
             case Warps:
                 detachChild(returnIcon);
@@ -435,7 +454,7 @@ public class SceneLevelEditor extends SceneBase {
                 break;
             case Test:
                 detachChild(returnIcon);
-                detachChild(levelText);
+                levelText.detachSelf();
                 break;
             case TooManyWarps:
                 detachChild(overlay);
@@ -531,7 +550,6 @@ public class SceneLevelEditor extends SceneBase {
         }
 
         state = s;
-
     }
 
     public void reload() {
