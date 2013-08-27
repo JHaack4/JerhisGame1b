@@ -6,9 +6,8 @@ Graphics: Isaac Schwab
 TODO LIST Jordan:
 =========
 -individual level text
--combine (editor, block, medal) and (about, main, editorselect, help) and (levelselect, packselect) and
--menu disappears
--pre load menus for improved performance
+-combine (editor, block, medal) and (about, main, editorselect, help) and (levelselect, packselect), packs
+-menu disappears?
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,
 -revise smoke

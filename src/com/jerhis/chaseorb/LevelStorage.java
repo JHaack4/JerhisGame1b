@@ -71,17 +71,17 @@ public class LevelStorage {
         {
             case -1: return SceneLevelEditor.levelName + "#" + SceneLevelEditor.backgroundString + "#" + SceneLevelEditor.starString + "#" + SceneLevelEditor.medalString + "#" + SceneLevelEditor.levelString;
             case 1:
-                return "test1##(200,50)$(120,600)$(1200,150)#7.77$15.01$25.40#" +
-                        "  w0                            " +
-                        "  Kb            w2kr    Ob      " +
-                        "              Oakrf!kr          " +
-                        "              Ca  b+      Cb    " +
-                        "        tetftfb+b+c/d*b+b+b+    " +
-                        "b~  w1            c-b]  c/      " +
-                        "b+kb                            " +
-                        "b<Krb+                  xx      " +
-                        "b<h+h+h+h+            w0  c-b+d*" +
-                        "b<b&b^b_b+b+vcvcvcb+b+b+c[c/b+b+";
+                return "test1##(400,600)$(600,500)$(800,600)#3.0$5.0$8.0#" +
+                        "                                " +
+                        "                                " +
+                        "                                " +
+                        "    Oa                          " +
+                        "                                " +
+                        "                                " +
+                        "b~                            b~" +
+                        "b+  Ca                    f!  b+" +
+                        "b<b+b+b+b+b+b+b+b+b+b+b+b+b+b+b<" +
+                        "b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<";
             case 2:
                 return "test2#mountain#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
                         "  w0                            " +
@@ -359,17 +359,17 @@ public class LevelStorage {
                         "  f!                        Ca  " +
                         "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
             case 25:
-                return "le0#sunset#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "b+                              " +
-                        "  b+b+                        b+" +
-                        "    b+      Oa              b+  " +
-                        "b+    b+  b+            b+b+    " +
-                        "      b+b+            b+b+b+    " +
-                        "          b+b+        b+        " +
-                        "                                " +
-                        "                                " +
-                        "  f!                        Ca  " +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "test1##(200,50)$(120,600)$(1200,150)#7.77$15.01$25.40#" +
+                        "  w0                            " +
+                        "  Kb            w2kr    Ob      " +
+                        "              Oakrf!kr          " +
+                        "              Ca  b+      Cb    " +
+                        "        tetftfb+b+c/d*b+b+b+    " +
+                        "b~  w1            c-b]  c/      " +
+                        "b+kb                            " +
+                        "b<Krb+                  xx      " +
+                        "b<h+h+h+h+            w0  c-b+d*" +
+                        "b<b&b^b_b+b+vcvcvcb+b+b+c[c/b+b+";
     /*LEVEL PACK 1 -------------1--------------1-----------------1---------------------1--------1 */
             case 101:
                 return "le0##(200,650)$(400,650)$(1000,650)#7.77$15.01$25.40#" +
