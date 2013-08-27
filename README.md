@@ -5,6 +5,8 @@ Graphics: Isaac Schwab
 
 TODO LIST Jordan:
 =========
+-individual level text
+-combine (editor, block, medal) and (about, main, editorselect, help) and (levelselect, packselect) and
 -menu disappears
 -pre load menus for improved performance
 -new tiles: push switch, wind, arrow pusher, spring, slip, water

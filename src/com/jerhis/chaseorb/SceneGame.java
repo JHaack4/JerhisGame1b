@@ -95,8 +95,9 @@ public class SceneGame extends SceneBase {
 	@Override
 	public void loadScene() {
 		level = levelPack.nextLevel();
-		A.m("ready");
-		overlay = new Sprite(0,0,A.menu,A.vbom);
+		A.mt("allgame",1);
+		overlay = new Sprite(320,200,A.menu,A.vbom);
+        overlay.setScale(2);
 		pauseIcon = new Sprite(1230,0,A.pauseIcon,A.vbom);
 		finishStar = new TiledSprite(200,200,A.finishStar,A.vbom);
 		finishMedal = new TiledSprite(880,200,A.finishMedal,A.vbom);
@@ -161,14 +162,16 @@ public class SceneGame extends SceneBase {
 		
 		switch(s) { //LOAD STUFF HERE
 		case Fail:
-			A.m("fail");
-			overlay = new Sprite(0,0,A.menu,A.vbom);
+			A.mt("allgame",3);
+			overlay = new Sprite(320,200,A.menu,A.vbom);
 			attachChild(overlay);
+            overlay.setScale(2);
 			A.failB.attachButtons(this);
 			break;
 		case Finish:
-			A.m("finish");
-			overlay = new Sprite(0,0,A.menu,A.vbom);
+			A.mt("allgame",0);
+			overlay = new Sprite(320,200,A.menu,A.vbom);
+            overlay.setScale(2);
 			star = level.getStars();
             medal = level.getMedal((int)time/100.0);
             levelPack.setSave(level.levelNum + 1, 0, 'u');
@@ -187,14 +190,16 @@ public class SceneGame extends SceneBase {
 			A.finishB.attachButtons(this);
 			break;
 		case Paused:
-			A.m("pause");
-			overlay = new Sprite(0,0,A.menu,A.vbom);
+			A.mt("allgame",2);
+			overlay = new Sprite(320,200,A.menu,A.vbom);
+            overlay.setScale(2);
 			attachChild(overlay);
 			A.pauseB.attachButtons(this);
 			break;
 		case Ready:
-			A.m("ready");
-			overlay = new Sprite(0,0,A.menu,A.vbom);
+			A.mt("allgame",1);
+			overlay = new Sprite(320,200,A.menu,A.vbom);
+            overlay.setScale(2);
 			GameDrawer.draw(level, this);
 			attachChild(overlay);
 			break;

@@ -28,7 +28,8 @@ import android.util.Log;
 public class A {
 	
 	public static Font mFont, bigFont;
-	public static ITextureRegion menu, bg, pack, locked, returnIcon, pauseIcon, selectedWarp;
+	public static ITiledTextureRegion menu;
+    public static ITextureRegion bg, pack, locked, returnIcon, pauseIcon, selectedWarp;
 	public static ITextureRegion tAbout, tHelp, tLE, tLS, tNL, tPlay, tQuit, 
 		tResume, tRetry, tReturn, tSave;
 	public static ITiledTextureRegion buttonDefault, chaser, cloudTile, basicTile, 
@@ -213,7 +214,17 @@ public class A {
     public static void m(String menuFile) {
         if (menuFile.equals(currentMenu)) return;
         currentMenu = menuFile;
-    	menu = i(menuFile + "menu");
+    	menu = t(menuFile + "menu", 1);
+    }
+    public static void mt(String menuFile, int k)
+    {
+        if (currentMenu.equals(menuFile)) {
+            menu.setCurrentTileIndex(k);
+            return;
+        }
+        currentMenu = menuFile;
+        menu = tt(menuFile + "menu", 2,2);
+        menu.setCurrentTileIndex(k);
     }
     public static void b(String bgFile) {
         if (bgFile.equals(currentBG)) return;

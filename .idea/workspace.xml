@@ -27,10 +27,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\assets\gfx\failmenu.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\assets\gfx\finishmenu.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\assets\gfx\pausemenu.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\assets\gfx\readymenu.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -98,10 +103,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="A.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="36" selection-start="8552" selection-end="8552" vertical-scroll-proportion="0.025757575" vertical-offset="3247" max-vertical-offset="4641">
+            <state line="225" column="42" selection-start="8845" selection-end="8845" vertical-scroll-proportion="0.0" vertical-offset="3073" max-vertical-offset="4828">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneGame.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="185" column="51" selection-start="4802" selection-end="4802" vertical-scroll-proportion="0.3026906" vertical-offset="2925" max-vertical-offset="4148">
               <folding />
             </state>
           </provider>
@@ -110,7 +124,7 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
+            <state line="8" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -119,7 +133,7 @@
       <file leaf-file-name="SceneBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="20" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="986">
+            <state line="34" column="20" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -137,7 +151,7 @@
       <file leaf-file-name="SceneLevelEditor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="394" column="0" selection-start="19244" selection-end="19244" vertical-scroll-proportion="0.0" vertical-offset="6681" max-vertical-offset="9741">
+            <state line="524" column="0" selection-start="23213" selection-end="23213" vertical-scroll-proportion="0.0" vertical-offset="7478" max-vertical-offset="9588">
               <folding />
             </state>
           </provider>
@@ -146,17 +160,10 @@
       <file leaf-file-name="GameActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="54" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1632">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2992">
-              <folding />
+            <state line="59" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="582" max-vertical-offset="1649">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/Tile.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneMainMenu.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneAbout.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneHelp.java" />
@@ -187,22 +193,22 @@
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileBomb.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileBasic.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileDeath.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="607" />
-    <option name="y" value="3" />
+    <option name="x" value="155" />
     <option name="width" value="1282" />
-    <option name="height" value="1019" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -535,7 +541,11 @@
       <created>1377538337673</created>
       <updated>1377538337673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="level editor 3">
+      <created>1377612962589</created>
+      <updated>1377612962589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -559,31 +569,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="607" y="3" width="1282" height="1019" extended-state="0" />
-    <editor active="false" />
+    <frame x="155" y="0" width="1282" height="998" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19719954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39903846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19786535" sideWeight="0.8028005" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1954023" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36576787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -628,45 +638,13 @@
     <MESSAGE value="fire base" />
     <MESSAGE value="level editor 1" />
     <MESSAGE value="level editor 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="level editor 2" />
+    <MESSAGE value="level editor 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="level editor 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="51" selection-start="3156" selection-end="3156" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="2822">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/TileDeath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="221" selection-end="221" vertical-scroll-proportion="0.16633266" vertical-offset="19" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="37" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="4063">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="21" selection-start="5698" selection-end="5698" vertical-scroll-proportion="-0.0023148148" vertical-offset="2449" max-vertical-offset="11135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1893" column="0" selection-start="110022" selection-end="110022" vertical-scroll-proportion="0.81654674" vertical-offset="31727" max-vertical-offset="32283">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="2958">
@@ -674,16 +652,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="54" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andengine/engine/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="0" selection-start="20158" selection-end="20158" vertical-scroll-proportion="0.0" vertical-offset="14472" max-vertical-offset="15028" />
+        <state line="616" column="0" selection-start="20158" selection-end="20158" vertical-scroll-proportion="0.0" vertical-offset="14472" max-vertical-offset="15028">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andengine/opengl/view/EngineRenderer.java">
@@ -705,19 +678,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andengine/entity/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1370" column="25" selection-start="35767" selection-end="35767" vertical-scroll-proportion="2.5616438" vertical-offset="21692" max-vertical-offset="23936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="0" selection-start="19244" selection-end="19244" vertical-scroll-proportion="0.0" vertical-offset="6681" max-vertical-offset="9741">
+        <state line="1370" column="25" selection-start="35767" selection-end="35767" vertical-scroll-proportion="2.5616438" vertical-offset="21692" max-vertical-offset="23936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+        <state line="524" column="0" selection-start="23213" selection-end="23213" vertical-scroll-proportion="0.0" vertical-offset="7478" max-vertical-offset="9588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -729,9 +704,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/view/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1309" column="16" selection-start="62490" selection-end="62490" vertical-scroll-proportion="40.07143" vertical-offset="0" max-vertical-offset="49521">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="582" max-vertical-offset="1649">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/gfx/background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="36" selection-start="8552" selection-end="8552" vertical-scroll-proportion="0.025757575" vertical-offset="3247" max-vertical-offset="4641">
+        <state line="225" column="42" selection-start="8845" selection-end="8845" vertical-scroll-proportion="0.0" vertical-offset="3073" max-vertical-offset="4828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/gfx/allgamemenu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="51" selection-start="4802" selection-end="4802" vertical-scroll-proportion="0.3026906" vertical-offset="2925" max-vertical-offset="4148">
           <folding />
         </state>
       </provider>

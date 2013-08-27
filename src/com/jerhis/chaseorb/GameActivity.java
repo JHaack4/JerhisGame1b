@@ -10,6 +10,7 @@ import org.andengine.ui.activity.BaseGameActivity;
 import org.andengine.util.color.Color;
 
 import android.graphics.Typeface;
+import android.view.KeyEvent;
 
 public class GameActivity extends BaseGameActivity {
 
@@ -23,15 +24,15 @@ public class GameActivity extends BaseGameActivity {
         eo.getTouchOptions().setNeedsMultiTouch(true);
 		return eo;
 	}
-	
+
 	@Override
-	public void onBackPressed() {  
+	public void onBackPressed() {
 		//super.onBackPressed();
 	    try {
 	    	SceneBase bs = (SceneBase) mEngine.getScene();
 	    	bs.onBackKeyPressed();
 	    } catch (Exception e) {
-	    		
+
 	    }
 	}
 	
@@ -45,7 +46,7 @@ public class GameActivity extends BaseGameActivity {
 			
 		}
 	}
-	
+
 	@Override
 	public void onResume() {
 		super.onResume();
