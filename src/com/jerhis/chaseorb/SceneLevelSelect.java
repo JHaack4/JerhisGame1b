@@ -49,8 +49,10 @@ public class SceneLevelSelect extends  SceneBase {
 
 	@Override
 	public void loadScene() {
-		A.m("level");
-		attachChild(new Sprite(0,0,A.menu,A.vbom));
+        A.mt("allmain", 2);
+        Sprite sp = new Sprite(320,200,A.menu,A.vbom);
+        sp.setScale(2);
+		attachChild(sp);
 		attachChild(new Sprite(C.width- C.pauseArea,0,A.returnIcon,A.vbom));
 		saved = LevelPack.read(packID);
 		for (int k = 0; k < 25; k++) {

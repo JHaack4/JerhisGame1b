@@ -16,7 +16,7 @@ public class SceneLevelEditor extends SceneBase {
 	public SceneLevelEditor(int num) {
 		super();
         state = EditorType.Select;
-        A.m("editor");
+        A.mt("alleditor", 2);
         levelNum = num;
         currentTile = 5;
 
@@ -50,7 +50,8 @@ public class SceneLevelEditor extends SceneBase {
         level.load();
 
         GameDrawer.draw(level, this);
-        overlay = new Sprite(0,0,A.menu,A.vbom);
+        overlay = new Sprite(320,200,A.menu,A.vbom);
+        overlay.setScale(2);
         returnIcon = new Sprite(1230,0,A.returnIcon,A.vbom);
         attachChild(overlay);
         selectedBlock = new Sprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
@@ -477,8 +478,9 @@ public class SceneLevelEditor extends SceneBase {
 
         switch (s) { //LOAD
             case Block:
-                A.m("block");
-                overlay = new Sprite(0,0,A.menu,A.vbom);
+                A.mt("alleditor", 3);
+                overlay = new Sprite(320,200,A.menu,A.vbom);
+                overlay.setScale(2);
                 attachChild(overlay);
                 attachChild(returnIcon);
                 int x = 0, y= 0;
@@ -505,8 +507,9 @@ public class SceneLevelEditor extends SceneBase {
                 attachChild(returnIcon);
                 break;
             case Select:
-                A.m("editor");
-                overlay = new Sprite(0,0,A.menu,A.vbom);
+                A.mt("alleditor", 2);
+                overlay = new Sprite(320,200,A.menu,A.vbom);
+                overlay.setScale(2);
                 attachChild(overlay);
                 selectedBlock = new Sprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
                 attachChild(selectedBlock);
@@ -517,16 +520,18 @@ public class SceneLevelEditor extends SceneBase {
                 attachChild(levelText);
                 break;
             case TooManyWarps:
-                A.m("toomanywarps");
-                overlay = new Sprite(0,0,A.menu,A.vbom);
+                A.mt("alleditor", 5);
+                overlay = new Sprite(320,200,A.menu,A.vbom);
+                overlay.setScale(2);
                 attachChild(overlay);
                 break;
             case Save:
                 A.saveB.attachButtons(this);
                 break;
             case Medal:
-                A.m("medal");
-                overlay = new Sprite(0,0,A.menu,A.vbom);
+                A.mt("alleditor", 4);
+                overlay = new Sprite(320,200,A.menu,A.vbom);
+                overlay.setScale(2);
                 attachChild(overlay);
                 attachChild(returnIcon);
                 Scanner sc = new Scanner(medalString);

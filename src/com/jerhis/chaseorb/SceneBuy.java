@@ -21,8 +21,10 @@ public class SceneBuy extends SceneBase {
 
 	@Override
 	public void loadScene() {
-		A.m("buy");
-		attachChild(new Sprite(0,0,A.menu,A.vbom));
+        A.mt("allmain", 3);
+        Sprite s = new Sprite(0,0,A.menu,A.vbom);
+        s.setScale(2);
+		attachChild(s);
 	}
 
 	@Override

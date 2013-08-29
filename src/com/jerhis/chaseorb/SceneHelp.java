@@ -23,8 +23,10 @@ public class SceneHelp extends SceneBase {
 
 	@Override
 	public void loadScene() {
-		A.m("help");
-        attachChild(new Sprite(0,0,A.menu,A.vbom));
+		A.mt("alleditor", 1);
+        Sprite s = new Sprite(320,200,A.menu,A.vbom);
+        s.setScale(2);
+        attachChild(s);
         A.returnB.attachButtons(this);
 	}
 

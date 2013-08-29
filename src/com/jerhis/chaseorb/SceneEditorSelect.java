@@ -35,8 +35,10 @@ public class SceneEditorSelect extends SceneBase {
 
 	@Override
 	public void loadScene() {
-		A.m("editorselect");
-		attachChild(new Sprite(0,0,A.menu,A.vbom));
+        A.mt("alleditor", 0);
+        Sprite s = new Sprite(320,200,A.menu,A.vbom);
+        s.setScale(2);
+		attachChild(s);
         attachChild(new Sprite(C.width- C.pauseArea,0,A.returnIcon,A.vbom));
         A.helpB.attachButtons(this);
 	}

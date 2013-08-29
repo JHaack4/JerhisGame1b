@@ -5,19 +5,18 @@ Graphics: Isaac Schwab
 
 TODO LIST Jordan:
 =========
--individual level text
--combine (editor, block, medal) and (about, main, editorselect, help) and (levelselect, packselect), packs
--menu disappears?
+-individual level text (fade popup)
+-combine packs
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,
 -revise smoke
 -improve collisions (on final chaser)
--animate chasers (jumps, face both ways, finishing, death)
--animate bg objects (possibly)
+-animate chasers (jumps, face both ways, finishing, death), orbs
 -sound & music
 -buying from in game
 -pause on resume from home button
 -locked finished (gradual entry to finish tile, on chaser anim)
+-gradual fail ^
 -spike blocks that shoot up every so often, if you are on them then you die
 -upload through trusted library (eclipse) after replace assets & classes
 
