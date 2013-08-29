@@ -1,9 +1,13 @@
 package com.jerhis.chaseorb;
 
 import org.andengine.entity.sprite.Sprite;
+import org.andengine.entity.text.Text;
+import org.andengine.entity.text.TextOptions;
+import org.andengine.util.HorizontalAlign;
 
 public class GameDrawer {
-	
+
+    public static Text text = new Text(640,225,A.mFont,"",new TextOptions(HorizontalAlign.CENTER), A.vbom);
 	public static void draw(Level level, SceneBase scene)
     {
         scene.attachChild(new Sprite(0,0,A.bg,A.vbom));
@@ -30,6 +34,18 @@ public class GameDrawer {
         for (Orb o: level.orbs)
         {
         	scene.attachChild(o);
+        }
+
+        switch(level.packID * 100 + level.levelNum){
+            case -100: text = new Text(640,400,A.mFont,"",new TextOptions(HorizontalAlign.CENTER), A.vbom);
+                text.setPosition(text.getX() - text.getWidth()/2, text.getY());
+                scene.attachChild(text); break;
+            case 1: text = new Text(640,100,A.mFont,"They follow the Gems!\nLead them to the goal!",new TextOptions(HorizontalAlign.CENTER), A.vbom);
+                text.setPosition(text.getX() - text.getWidth()/2, text.getY());
+                scene.attachChild(text); break;
+            case 2: text = new Text(640,100,A.mFont,"They jump if the Gem is above Them!",new TextOptions(HorizontalAlign.CENTER), A.vbom);
+                text.setPosition(text.getX() - text.getWidth()/2, text.getY());
+                scene.attachChild(text); break;
         }
     }
 	
@@ -65,6 +81,8 @@ public class GameDrawer {
         {
         	scene.detachChild(o);
         }
+
+        text.detachSelf();
     }
 
 }

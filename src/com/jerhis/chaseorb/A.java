@@ -28,7 +28,8 @@ import android.util.Log;
 public class A {
 	
 	public static Font mFont, bigFont;
-	public static ITextureRegion menu, bg, pack, locked, returnIcon, pauseIcon, selectedWarp;
+	public static ITiledTextureRegion menu;
+    public static ITextureRegion bg, pack, locked, returnIcon, pauseIcon, selectedWarp;
 	public static ITextureRegion tAbout, tHelp, tLE, tLS, tNL, tPlay, tQuit, 
 		tResume, tRetry, tReturn, tSave;
 	public static ITiledTextureRegion buttonDefault, chaser, cloudTile, basicTile, 
@@ -38,8 +39,11 @@ public class A {
 		midTile, orb, smoke, star, snowTile, stoneTile, touchTile, warp;
 	public static MyButtonGroup mainB, returnB, failB, finishB, pauseB, saveB, helpB;
     public static ArrayList<String> backgrounds = new ArrayList<String>();
+    public static ArrayList<ITiledTextureRegion> tilesList = new ArrayList<ITiledTextureRegion>();
+    public static ArrayList<String> charCodes = new ArrayList<String>();
 	//public static Sound bounceSound;
     //test
+    public static String currentBG = "none", currentMenu = "none";
 	
 	
 	public static void load() {
@@ -48,8 +52,11 @@ public class A {
         backgrounds.add("moon");
         backgrounds.add("night");
         backgrounds.add("sunset");
+        backgrounds.add("grassland");
+        backgrounds.add("mountain");
 
-		
+
+
 		//buttons
 		buttonDefault = t("button",2);
 		tAbout = i("textabout");
@@ -122,8 +129,39 @@ public class A {
 		stoneTile = t("stonetile", 1);
 		touchTile = t("touchtile", 2);
 		warp = t("warp", 30);
-		
-	}
+
+
+        //id imp
+        charCodes.add("  "); tilesList.add(emptyTile);
+        charCodes.add("w0"); tilesList.add(warp);
+        charCodes.add("f!"); tilesList.add(finishTile);
+        charCodes.add("Ca"); tilesList.add(chaser);
+        charCodes.add("Oa"); tilesList.add(orb);
+        charCodes.add("b+"); tilesList.add(basicTile);
+        charCodes.add("te"); tilesList.add(touchTile);
+        charCodes.add("tf"); tilesList.add(touchTile);
+        //id non imp
+        charCodes.add("b~"); tilesList.add(grassTile);
+        charCodes.add("b<"); tilesList.add(dirtTile);
+        charCodes.add("b]"); tilesList.add(fireBaseTile);
+        charCodes.add("d*"); tilesList.add(fireTile);
+        charCodes.add("b_"); tilesList.add(iceTile);
+        charCodes.add("b&"); tilesList.add(metalTile);
+        charCodes.add("b^"); tilesList.add(snowTile);
+        charCodes.add("c-"); tilesList.add(midTile);
+        charCodes.add("c/"); tilesList.add(stoneTile);
+        charCodes.add("c["); tilesList.add(glassTile);
+        charCodes.add("vc"); tilesList.add(cloudTile);
+        charCodes.add("h+"); tilesList.add(halfTile);
+        charCodes.add("Kr"); tilesList.add(keyRed);
+        charCodes.add("kr"); tilesList.add(keyHoleRed);
+        charCodes.add("Kb"); tilesList.add(keyBlue);
+        charCodes.add("kb"); tilesList.add(keyHoleBlue);
+        charCodes.add("Ky"); tilesList.add(keyYellow);
+        charCodes.add("ky"); tilesList.add(keyHoleYellow);
+        charCodes.add("xx"); tilesList.add(bomb);
+
+    }
 	public static void loadSplash() {
 		m("splash");
 	}
@@ -170,10 +208,27 @@ public class A {
 	
 	
     //MENU/BG stuff
+    //about, block, buy, editor, editorselect, fail, finish, help, level, main, medal, pack, pause, ready, splash, toomanywarps
+    //public static ITextureRegion[] menuArray = new ITextureRegion[16];
+    //public static boolean[] menuBooleans = new boolean[16];
     public static void m(String menuFile) {
-    	menu = i(menuFile + "menu");
+        if (menuFile.equals(currentMenu)) return;
+        currentMenu = menuFile;
+    	menu = t(menuFile + "menu", 1);
+    }
+    public static void mt(String menuFile, int k)
+    {
+        if (currentMenu.equals(menuFile)) {
+            menu.setCurrentTileIndex(k);
+            return;
+        }
+        currentMenu = menuFile;
+        menu = tt(menuFile + "menu", 2,2);
+        menu.setCurrentTileIndex(k);
     }
     public static void b(String bgFile) {
+        if (bgFile.equals(currentBG)) return;
+        currentBG = bgFile;
     	bg = i("background" + bgFile);
     }
     public static void pack(int pkFile) {

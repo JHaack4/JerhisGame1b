@@ -1,5 +1,6 @@
 package com.jerhis.chaseorb;
 
+import org.andengine.entity.Entity;
 import org.andengine.entity.scene.Scene;
 import org.andengine.input.touch.TouchEvent;
 
@@ -20,11 +21,17 @@ public abstract class SceneBase extends Scene {
 
     @Override
     public boolean onSceneTouchEvent(final TouchEvent pSceneTouchEvent) {
-    	int action = pSceneTouchEvent.getAction();
-    	int pointerID = pSceneTouchEvent.getPointerID();
-    	float x = pSceneTouchEvent.getX();
-    	float y = pSceneTouchEvent.getY();
-    	touch(action, pointerID, x, y);
+        A.activity.runOnUpdateThread(new Runnable() {
+            @Override
+            public void run() {
+                int action = pSceneTouchEvent.getAction();
+                int pointerID = pSceneTouchEvent.getPointerID();
+                float x = pSceneTouchEvent.getX();
+                float y = pSceneTouchEvent.getY();
+                touch(action, pointerID, x, y);
+            }
+        });
+
     	return true;
     }
     
