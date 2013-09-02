@@ -71,7 +71,7 @@ public class LevelStorage {
         {
             case -1: return SceneLevelEditor.levelName + "#" + SceneLevelEditor.backgroundString + "#" + SceneLevelEditor.starString + "#" + SceneLevelEditor.medalString + "#" + SceneLevelEditor.levelString;
             case 1:
-                return "test1##(400,600)$(600,500)$(800,600)#3.0$5.0$8.0#" +
+                return "test1##(400,600)$(600,500)$(800,600)#3.0$5.0$7.0#" +
                         "                                " +
                         "                                " +
                         "                                " +
@@ -83,7 +83,7 @@ public class LevelStorage {
                         "b<b+b+b+b+b+b+b+b+b+b+b+b+b+b+b<" +
                         "b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<";
             case 2:
-                return "le##(120, 507)$(520, 310)$(1154, 307)#3.3$5.0$9.0#" +
+                return "le##(120, 507)$(520, 310)$(1154, 307)#3.3$5.0$7.0#" +
                         "                                " +
                         "                                " +
                         "                                " +
@@ -95,41 +95,41 @@ public class LevelStorage {
                         "b<b+b+b+b+b<b<b<b<b<b<b<b<b<b<b<" +
                         "b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<";
             case 3:
-                return "test3#night#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "  w0                            " +
-                        "                w2      Ob      " +
-                        "            Oa    f!            " +
-                        "                  b+      Cb    " +
-                        "            b+b+b+b+d*b+b+b+    " +
-                        "b+  w1                          " +
-                        "  b+                            " +
-                        "  b+b+          Ca              " +
-                        "  b+b+b+b+            w0  b+b+d*" +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(1101, 340)$(1202, 192)$(466, 252)#7.5$10.0$15.0#" +
+                        "                        Oa      " +
+                        "                                " +
+                        "                        f!      " +
+                        "                      b+b+b+    " +
+                        "    Ob          b+              " +
+                        "              b+b<b+    Ca      " +
+                        "b~          b+b<b<b<b+b+b+b+b+b+" +
+                        "b+  Cb  b+b+b<b<b<b<b<b<b<b<b<b<" +
+                        "b<b+b+b+b<b<b<b<b<b<b<b<b<b<b<b<" +
+                        "b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<";
             case 4:
-                return "test4##(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "  w0                            " +
-                        "                w2      Ob      " +
-                        "            Oa    f!            " +
-                        "                  b+      Cb    " +
-                        "            b+b+b+b+d*b+b+b+    " +
-                        "b+  w1                          " +
-                        "  b+                            " +
-                        "  b+b+          Ca              " +
-                        "  b+b+b+b+            w0  b+b+d*" +
-                        "  b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(133, 265)$(1162, 265)$(314, 582)#4.7$6.5$10.0#" +
+                        "                                " +
+                        "      f!                w2      " +
+                        "      b+b+b+b+b+b+b+b+b+b+      " +
+                        "      b<                b<      " +
+                        "      b<w4            w0b<      " +
+                        "      b<b+b+b+b+b+b+b+b+b<      " +
+                        "              b<b<          Oa  " +
+                        "              b<b<              " +
+                        "  w5        w1b<b<w4        Ca  " +
+                        "b+b+b+b+b+b+b+b<b<b+b+b+b+b+b+b+";
             case 5:
-                return "le0#moon#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "b+                              " +
-                        "  b+b+                        b+" +
-                        "    b+      Oa              b+  " +
-                        "b+    b+  b+            b+b+    " +
-                        "      b+b+            b+b+b+    " +
-                        "          b+b+        b+        " +
-                        "    b+  b+  b+      b+          " +
-                        "        b+    b+  b+            " +
-                        "  f!                        Ca  " +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(1045, 457)$(445, 635)$(258, 635)#4.5$8.0$12.0#" +
+                        "                                " +
+                        "  f!  w0                        " +
+                        "  b+b+b+        w7    w3        " +
+                        "                b+b+b+b+        " +
+                        "                                " +
+                        "      w2        w6              " +
+                        "      b+b+b+b+b+b+  Oa          " +
+                        "        b<                      " +
+                        "  w0    b<  w2      Ca    w6    " +
+                        "b+b+b+b+b<b+b+b+b+b+b+b+b+b+b+b+";
             case 6:
                 return "le0#grassland#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
                         "b+                              " +
