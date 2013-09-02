@@ -24,8 +24,10 @@ public class SceneAbout extends SceneBase {
 
 	@Override
 	public void loadScene() {
-		A.m("about");
-		attachChild(new Sprite(0,0,A.menu,A.vbom));
+		A.mt("allmain", 4);
+        Sprite s  = new Sprite(320,200,A.menu,A.vbom);
+        s.setScale(2);
+		attachChild(s);
         A.returnB.attachButtons(this);
 	}
 

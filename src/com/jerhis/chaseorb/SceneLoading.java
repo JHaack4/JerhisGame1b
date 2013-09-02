@@ -23,7 +23,8 @@ public class SceneLoading extends SceneBase {
 	Sprite s;
 	@Override
 	public void loadScene() {
-		s = new Sprite(0,0,A.menu,A.vbom);
+		s = new Sprite(320,200,A.menu,A.vbom);
+        s.setScale(2);
 		attachChild(s);
 		A.load();
 	}

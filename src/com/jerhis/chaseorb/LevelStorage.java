@@ -83,17 +83,17 @@ public class LevelStorage {
                         "b<b+b+b+b+b+b+b+b+b+b+b+b+b+b+b<" +
                         "b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<";
             case 2:
-                return "test2#mountain#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "  w0                            " +
-                        "                w2      Ob      " +
-                        "            Oa    f!            " +
-                        "                  b+      Cb    " +
-                        "            b+b+b+b+d*b+b+b+    " +
-                        "b+  w1                          " +
-                        "  b+                            " +
-                        "  b+b+          Ca              " +
-                        "b+b+b+b+b+            w0  b+b+d*" +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(120, 507)$(520, 310)$(1154, 307)#3.3$5.0$9.0#" +
+                        "                                " +
+                        "                                " +
+                        "                                " +
+                        "                              b~" +
+                        "                          f!  b+" +
+                        "b~  Oa                b+b+b+b+b<" +
+                        "b~              b+b+b+b<b<b<b<b<" +
+                        "b+  Ca    b+b+b+b<b<b<b<b<b<b<b<" +
+                        "b<b+b+b+b+b<b<b<b<b<b<b<b<b<b<b<" +
+                        "b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<b<";
             case 3:
                 return "test3#night#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
                         "  w0                            " +

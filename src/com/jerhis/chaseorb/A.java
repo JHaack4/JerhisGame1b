@@ -28,8 +28,8 @@ import android.util.Log;
 public class A {
 	
 	public static Font mFont, bigFont;
-	public static ITiledTextureRegion menu;
-    public static ITextureRegion bg, pack, locked, returnIcon, pauseIcon, selectedWarp;
+	public static ITiledTextureRegion menu, packs;
+    public static ITextureRegion bg, locked, returnIcon, pauseIcon, selectedWarp;
 	public static ITextureRegion tAbout, tHelp, tLE, tLS, tNL, tPlay, tQuit, 
 		tResume, tRetry, tReturn, tSave;
 	public static ITiledTextureRegion buttonDefault, chaser, cloudTile, basicTile, 
@@ -97,6 +97,7 @@ public class A {
 		returnIcon = i("returnicon");
 		pauseIcon = i("pauseicon");
 		selectedWarp = i("selectedwarp");
+        packs = tt("packs",2,4);
 		bomb = t("bomb", 1);
 		chaser = t("chaser", 30);
 		cloudTile = t("cloudtile", 30);
@@ -130,7 +131,6 @@ public class A {
 		touchTile = t("touchtile", 2);
 		warp = t("warp", 30);
 
-
         //id imp
         charCodes.add("  "); tilesList.add(emptyTile);
         charCodes.add("w0"); tilesList.add(warp);
@@ -163,7 +163,7 @@ public class A {
 
     }
 	public static void loadSplash() {
-		m("splash");
+		A.mt("allmain",5);
 	}
 	
 	
@@ -209,13 +209,6 @@ public class A {
 	
     //MENU/BG stuff
     //about, block, buy, editor, editorselect, fail, finish, help, level, main, medal, pack, pause, ready, splash, toomanywarps
-    //public static ITextureRegion[] menuArray = new ITextureRegion[16];
-    //public static boolean[] menuBooleans = new boolean[16];
-    public static void m(String menuFile) {
-        if (menuFile.equals(currentMenu)) return;
-        currentMenu = menuFile;
-    	menu = t(menuFile + "menu", 1);
-    }
     public static void mt(String menuFile, int k)
     {
         if (currentMenu.equals(menuFile)) {
@@ -223,18 +216,19 @@ public class A {
             return;
         }
         currentMenu = menuFile;
-        menu = tt(menuFile + "menu", 2,2);
+        if (menuFile.equals("allgame"))
+            menu = tt(menuFile + "menu", 2,2);
+        else if (menuFile.equals("alleditor"))
+            menu = tt(menuFile + "menu", 2,3);
+        else if (menuFile.equals("allmain"))
+            menu = tt(menuFile + "menu", 2,3);
+        else menu = tt(menuFile + "menu", 2,2);
         menu.setCurrentTileIndex(k);
     }
     public static void b(String bgFile) {
         if (bgFile.equals(currentBG)) return;
         currentBG = bgFile;
     	bg = i("background" + bgFile);
-    }
-    public static void pack(int pkFile) {
-    	if (pkFile == -1) pack = i("packc");
-    	else if (pkFile == -3) pack = null;
-    	else pack = i("pack" + pkFile);
     }
     
     

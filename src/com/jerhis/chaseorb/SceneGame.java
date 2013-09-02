@@ -1,5 +1,7 @@
 package com.jerhis.chaseorb;
 
+import android.widget.Toast;
+
 import org.andengine.entity.sprite.Sprite;
 import org.andengine.entity.sprite.TiledSprite;
 import org.andengine.entity.text.Text;
@@ -77,6 +79,7 @@ public class SceneGame extends SceneBase {
 			break;
 		case Ready:
 			if (action == TouchEvent.ACTION_DOWN) switchTo(GameState.Running);
+
 			break;
 		case Running:
 			if (x > 1230 && y < 50 && action == TouchEvent.ACTION_DOWN) {
@@ -151,6 +154,14 @@ public class SceneGame extends SceneBase {
 			break;
 		case Ready:
 			detachChild(overlay);
+            final String toastText = C.getLevelText(level.packID,level.levelNum);
+            if (!toastText.equals("")) {
+                A.activity.runOnUiThread(new Runnable() {
+                    public void run() {
+                        Toast.makeText(A.activity, toastText, Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
 			break;
 		case Running:
 			detachChild(pauseIcon);

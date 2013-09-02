@@ -29,8 +29,9 @@ public class SceneMainMenu extends SceneBase {
 
 	@Override
 	public void loadScene() {
-		A.m("main");
-		Sprite bgS = new Sprite(0,0,A.menu,A.vbom);
+        A.mt("allmain", 0);
+		Sprite bgS = new Sprite(320,200,A.menu,A.vbom);
+        bgS.setScale(2);
 		attachChild(bgS);
 		A.mainB.attachButtons(this);
 	}
