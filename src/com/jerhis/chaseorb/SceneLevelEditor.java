@@ -91,6 +91,10 @@ public class SceneLevelEditor extends SceneBase {
 	
 	@Override
 	public void update(float deltaTime) {
+        if (readyToLeave) {
+            readyToLeave = false;
+            leave();
+        }
         if (switchReady) {
             switchTo2(ss);
             switchReady = false;
@@ -116,6 +120,7 @@ public class SceneLevelEditor extends SceneBase {
     public float gold, silver, bronze;
     public Sprite warpIcon, selectedBlock;
     public Tile[][] tempLevel;
+    public boolean readyToLeave = false;
 	@Override
 	public void touch(final int action, final int pointerID, final float x, final float y) {
 
@@ -170,7 +175,7 @@ public class SceneLevelEditor extends SceneBase {
                     if (currentTile == 0 && delWarp != -1) {
                         for (int k = 0; k < 320; k+=2)
                             if (levelString.charAt(k) == 'w')
-                                if (levelString.charAt(k+1) >= delWarp + '0')
+                                if (levelString.charAt(k+1) >= delWarp + '0' && levelString.charAt(k+1) != '0')
                                     levelString = levelString.substring(0,k) + "w" + ((char)(levelString.charAt(k+1)-1)) + levelString.substring(k+2);
                     }
                     level.load();
@@ -217,9 +222,11 @@ public class SceneLevelEditor extends SceneBase {
                     if (y > 6*C.height/numOptions && y < 7*C.height/numOptions) {
                         currentBackground = (currentBackground+1) % A.backgrounds.size();
                         backgroundString = A.backgrounds.get(currentBackground);
+                        detachChild(selectedBlock);
                         detachChild(overlay);
                         reload();
                         attachChild(overlay);
+                        attachChild(selectedBlock);
                     }
                     if (y > 7*C.height/numOptions && y < 8*C.height/numOptions) {
                         switchTo(EditorType.Save);
@@ -244,14 +251,14 @@ public class SceneLevelEditor extends SceneBase {
                             A.p(j);
                         }
                         A.writeToMemory(C.fileName + levelNum + ".txt", levelName + "#" + backgroundString + "#" + starString + "#" + medalString + "#" + levelString);
-                        leave();
+                        readyToLeave = true;
                         break;
                     case 1:
                         String jj = ("\"" + levelName +"#"+ backgroundString + "#" + starString + "#" + medalString + "#\" +\n\""+ levelString.substring(0,32) + "\" +\n\"" + levelString.substring(32,64) + "\" +\n\"" + levelString.substring(64,96) + "\" +\n\"" + levelString.substring(96,128) + "\" +\n\"" + levelString.substring(128,160) + "\" +\n\"" + levelString.substring(160,192) + "\" +\n\"" + levelString.substring(192,224) + "\" +\n\"" + levelString.substring(224,256) + "\" +\n\"" + levelString.substring(256,288) + "\" +\n\"" + levelString.substring(288,320) + "\";");
                         if (C.cheats) {
                             A.p(jj);
                         }
-                        leave();
+                        readyToLeave = true;
                         break;
                     case 2:
                         back();
@@ -456,6 +463,7 @@ public class SceneLevelEditor extends SceneBase {
             case Test:
                 detachChild(returnIcon);
                 levelText.detachSelf();
+                levelTime = 0;
                 break;
             case TooManyWarps:
                 detachChild(overlay);

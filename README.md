@@ -5,11 +5,8 @@ Graphics: Isaac Schwab
 
 TODO LIST Jordan:
 =========
--individual level text (fade popup)
--combine packs
 -new tiles: push switch, wind, arrow pusher, spring, slip, water
 -color determines: bomb resistant, floats in water, jumps higher, teleport through blocks?,
--revise smoke
 -improve collisions (on final chaser)
 -animate chasers (jumps, face both ways, finishing, death), orbs
 -sound & music
