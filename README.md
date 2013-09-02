@@ -11,7 +11,6 @@ TODO LIST Jordan:
 -animate chasers (jumps, face both ways, finishing, death), orbs
 -sound & music
 -buying from in game
--pause on resume from home button
 -locked finished (gradual entry to finish tile, on chaser anim)
 -gradual fail ^
 -spike blocks that shoot up every so often, if you are on them then you die
@@ -41,9 +40,18 @@ TODO LIST Pack Themes:
 5-
 6-
 
+TODO List Levels:
+=========
+-consider 4 packs (only 100 levels)
+0-6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+1-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+2-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+3-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+4-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+5-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+
 TODO LIST Testing:
 =========
 -finalize movement speed, acceleration
--make levels x 150
 -choose name
 -compose sound/music

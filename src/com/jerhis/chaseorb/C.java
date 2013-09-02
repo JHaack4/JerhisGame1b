@@ -6,6 +6,10 @@ public class C {
         switch(packID * 100 + levelNum){
             case 1: return  "They follow the gem!\nLead them to the goal!";
             case 2: return  "They jump if the gem is above them!";
+            case 3: return  "They follow the matching gem!";
+            case 4: return  "Navigate them through\nthe maze of warps!";
+            //case x: return "";
+            case 5: return  "Explore every possibility!";
         }
         return "";
     }
