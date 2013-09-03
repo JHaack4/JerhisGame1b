@@ -41,7 +41,7 @@ public class TileBasic extends Tile {
 	public void update(Scene s, float deltaTime) {
 		if (charID == '+') {
             animate(deltaTime);
-            if (currentFrame == 10)
+            if (currentFrame == 9)
                 setFrames(new int[]{0}, 0);
         }
 		
