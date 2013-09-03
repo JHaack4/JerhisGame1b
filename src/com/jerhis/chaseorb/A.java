@@ -101,7 +101,7 @@ public class A {
 		bomb = t("bomb", 1);
 		chaser = t("chaser", 30);
 		cloudTile = t("cloudtile", 30);
-		basicTile = tt("basictile", 10,6);
+		basicTile = tt("basictile", 15,6);
 		dirtTile = t("dirttile", 1);
 		emptyTile = t("emptytile", 1);
 		finishTile = t("finish", 10);
