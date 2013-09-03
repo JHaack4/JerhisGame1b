@@ -54,7 +54,8 @@ public class SceneLevelEditor extends SceneBase {
         overlay.setScale(2);
         returnIcon = new Sprite(1230,0,A.returnIcon,A.vbom);
         attachChild(overlay);
-        selectedBlock = new Sprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
+        selectedBlock = new TiledSprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
+        selectedBlock.setCurrentTileIndex(12);
         attachChild(selectedBlock);
 	}
 
@@ -118,9 +119,12 @@ public class SceneLevelEditor extends SceneBase {
 
     public Text textG, textS, textB, levelText;
     public float gold, silver, bronze;
-    public Sprite warpIcon, selectedBlock;
-    public Tile[][] tempLevel;
+    public Sprite warpIcon;
+    public TiledSprite selectedBlock;
+    public Tile[][] tempLevelS;
     public boolean readyToLeave = false;
+    public ArrayList<Orb> tempLevelO;
+    public ArrayList<Chaser> tempLevelC;
 	@Override
 	public void touch(final int action, final int pointerID, final float x, final float y) {
 
@@ -155,13 +159,22 @@ public class SceneLevelEditor extends SceneBase {
                     if (currentTile != 0) {
                         TiledSprite sp = new TiledSprite(mx*80,my*80,selectedImage,A.vbom);
                         int cti = currentTile == 7? 1: 0;
+                        cti = currentTile == 5 ? 12 : cti;
                         sp.setCurrentTileIndex(cti);
                         tilesListSprite.add(sp);
                         attachChild(sp);
                     }
                     try {
-                        tempLevel[mx][my].detachSelf();
-                    } catch (Exception e) {}
+                        for (Chaser chaser : tempLevelC)
+                            if (((int)chaser.coord.x) / 80 == mx && ((int)chaser.coord.y) / 80 == my)
+                                chaser.setVisible(false);
+                        for (Orb orb:  tempLevelO)
+                            if ((int)orb.coord.x / 80 == mx && (int)orb.coord.y / 80 == my)
+                                orb.setVisible(false);
+                        tempLevelS[mx][my].setVisible(false);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                     int xy = 2 * mx + 2 * C.xBlocks * my;
                     if (levelString.charAt(xy) == 'w') delWarp = ((TileWarp)level.tiles[mx][my]).myID;
                     levelString = levelString.substring(0,xy) + A.charCodes.get(currentTile) + levelString.substring(xy+2);
@@ -497,6 +510,7 @@ public class SceneLevelEditor extends SceneBase {
                     ITiledTextureRegion i = A.tilesList.get(k);
                     TiledSprite sp = new TiledSprite(x,y,i,A.vbom);
                     int cti = k == 7 ? 1 : 0;
+                    cti = k == 5 ? 12 : cti;
                     sp.setCurrentTileIndex(cti);
                     attachChild(sp);
                     tilesListSprite.add(sp);
@@ -509,7 +523,9 @@ public class SceneLevelEditor extends SceneBase {
                 break;
             case Placement:
                 attachChild(returnIcon);
-                tempLevel = level.tiles;
+                tempLevelC = level.chasers;
+                tempLevelO = level.orbs;
+                tempLevelS = level.tiles;
                 break;
             case Warps:
                 attachChild(returnIcon);
@@ -519,7 +535,10 @@ public class SceneLevelEditor extends SceneBase {
                 overlay = new Sprite(320,200,A.menu,A.vbom);
                 overlay.setScale(2);
                 attachChild(overlay);
-                selectedBlock = new Sprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
+                selectedBlock = new TiledSprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
+                int cti = currentTile == 7 ? 1 : 0;
+                cti = currentTile == 5 ? 12 : cti;
+                selectedBlock.setCurrentTileIndex(cti);
                 attachChild(selectedBlock);
                 break;
             case Test:
