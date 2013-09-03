@@ -352,13 +352,13 @@ public class SceneLevelEditor extends SceneBase {
                             if (closest != null)
                             {
                                 closest.pointerID = pointerID;
-                                closest.coord = new Coord(x, y);
+                                closest.coord = new Coord(x - 20, y - 20);
                             }
                             break;
                         case TouchEvent.ACTION_MOVE:
                             for (Star s: level.stars)
                                 if (pointerID == s.pointerID) {
-                                    s.coord = new Coord(x, y);
+                                    s.coord = new Coord(x -20, y-20);
                                 }
                             break;
                         case TouchEvent.ACTION_CANCEL:
@@ -366,19 +366,19 @@ public class SceneLevelEditor extends SceneBase {
                             for (Star s: level.stars)
                                 if (pointerID == s.pointerID)
                                 {
-                                    s.coord = new Coord(x, y);
+                                    s.coord = new Coord(x-20, y-20);
                                     s.pointerID = -1;
                                 }
                     }
                 for (Star s: level.stars)
                 {
-                    s.coord.x = (int)s.coord.x + 0;
-                    s.coord.y = (int)s.coord.y + 0;
+                    s.coord.x = (int)s.coord.x;
+                    s.coord.y = (int)s.coord.y;
                     if (s.coord.x < C.blocksSize/2) s.coord.x = C.blocksSize/2;
                     if (s.coord.x > C.width - C.blocksSize/2) s.coord.x = C.width - C.blocksSize/2;
                     if (s.coord.y > C.height - C.blocksSize/2) s.coord.y = C.height - C.blocksSize/2;
                     if (s.coord.y < C.blocksSize/2) s.coord.y = C.blocksSize/2;
-                    s.setPosition((int)s.coord.x - 20, (int)s.coord.y - 20);
+                    s.setPosition((int)s.coord.x -20, (int)s.coord.y -20);
                 }
                 starString = level.stars.get(0).coord.toString(true) + "$" + level.stars.get(1).coord.toString(true) + "$" + level.stars.get(2).coord.toString(true);
                 break;

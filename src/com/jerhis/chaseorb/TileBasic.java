@@ -6,11 +6,21 @@ import org.andengine.opengl.texture.region.ITiledTextureRegion;
 public class TileBasic extends Tile {
 
 	public TileBasic(Coord coord, char charID) {
-		super(coord, 'b', charID, getImage(charID));
+		super(coord, 'b', charID, getImage(charID),new int[]{0},50,0);
 	}
 
 	@Override
 	public void collision(Chaser chaser, CollisionType type) {
+        if (charID == '+' && type != CollisionType.NONE){
+            switch (chaser.color) {
+                case 'a': setFrames(new int[]{1,2,3,0}, 0); break;
+                case 'b': setFrames(new int[]{1,2,3,0}, 0); break;
+                case 'c': setFrames(new int[]{1,2,3,0}, 0); break;
+                case 'd': setFrames(new int[]{1,2,3,0}, 0); break;
+                case 'e': setFrames(new int[]{1,2,3,0}, 0); break;
+                case 'f': setFrames(new int[]{1,2,3,0}, 0); break;
+            }
+        }
 		switch (type) {
         case TOP: basicTopCollision(chaser);
             break;
@@ -29,7 +39,11 @@ public class TileBasic extends Tile {
 
 	@Override
 	public void update(Scene s, float deltaTime) {
-		//no anim
+		if (charID == '+') {
+            animate(deltaTime);
+            if (currentFrame == 3)
+                setFrames(new int[]{0}, 0);
+        }
 		
 	}
 
