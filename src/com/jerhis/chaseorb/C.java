@@ -10,6 +10,10 @@ public class C {
             case 4: return  "Navigate them through\nthe maze of warps!";
             //case x: return "";
             case 5: return  "Explore every possibility!";
+            case 6: return "Be wary of the fire!";
+            case 7: return "Be quick on the clouds!";
+
+
         }
         return "";
     }

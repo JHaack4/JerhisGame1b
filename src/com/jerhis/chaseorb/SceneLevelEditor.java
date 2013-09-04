@@ -37,7 +37,7 @@ public class SceneLevelEditor extends SceneBase {
 
         String k = A.readFromMemory(C.fileName + levelNum + ".txt");
         if (!k.equals("")) {
-            A.p(k);
+            //A.p(k);
             Scanner sc = new Scanner(k);
             sc.useDelimiter("#");
             levelName = sc.next();
@@ -125,6 +125,7 @@ public class SceneLevelEditor extends SceneBase {
     public boolean readyToLeave = false;
     public ArrayList<Orb> tempLevelO;
     public ArrayList<Chaser> tempLevelC;
+    public ArrayList<Star> tempLevelST;
 	@Override
 	public void touch(final int action, final int pointerID, final float x, final float y) {
 
@@ -135,10 +136,11 @@ public class SceneLevelEditor extends SceneBase {
                     back();
                     return;
                 }
-                if (action == TouchEvent.ACTION_DOWN && x < C.width - C.blocksSize) {
+                if (action == TouchEvent.ACTION_DOWN && x < 10*120) {
                     try {
-                        selectedImage = A.tilesList.get((((int)y)/C.blocksSize)*(C.xBlocks - 1) + (((int)x)/C.blocksSize));
-                        currentTile = (((int)y)/C.blocksSize)*(C.xBlocks-1) + (((int)x)/C.blocksSize);
+                        int k = ((int)y)/120*10 + ((int)x)/120;
+                        selectedImage = A.tilesList.get(k);
+                        currentTile = k;
                         switchTo(EditorType.Placement);
                     } catch (Exception e) {}
                 }
@@ -148,6 +150,7 @@ public class SceneLevelEditor extends SceneBase {
                     back();
                     return;
                 }
+                detachChild(returnIcon);
                 if (action == TouchEvent.ACTION_DOWN) {
                     if (TileWarp.otherWarps.size() == 42 && currentTile == 1)
                     {
@@ -194,6 +197,7 @@ public class SceneLevelEditor extends SceneBase {
                     level.load();
 
                 }
+                attachChild(returnIcon);
                 break;
             case Warps:
                 if (action == TouchEvent.ACTION_DOWN && x > C.width - C.pauseArea && y < C.pauseArea) {
@@ -461,6 +465,19 @@ public class SceneLevelEditor extends SceneBase {
                 for (Sprite spr: tilesListSprite) {
                     spr.detachSelf();
                 }
+                for (int x = 0; x < 16; x++)
+                    for (int y= 0; y<10; y++)
+                        tempLevelS[x][y].detachSelf();
+                tempLevelS = null;
+                for (Chaser chaser: tempLevelC)
+                    chaser.detachSelf();
+                tempLevelC = null;
+                for (Orb orb: tempLevelO)
+                    orb.detachSelf();
+                tempLevelO = null;
+                for (Star star: tempLevelST)
+                    star.detachSelf();
+                tempLevelST = null;
                 tilesListSprite.clear();
                 break;
             case Warps:
@@ -508,16 +525,17 @@ public class SceneLevelEditor extends SceneBase {
                 for (int k = 0; k < A.tilesList.size(); k++)
                 {
                     ITiledTextureRegion i = A.tilesList.get(k);
-                    TiledSprite sp = new TiledSprite(x,y,i,A.vbom);
+                    TiledSprite sp = new TiledSprite(x + 20,y + 20,i,A.vbom);
+                    sp.setScale(1.5f);
                     int cti = k == 7 ? 1 : 0;
                     cti = k == 5 ? 12 : cti;
                     sp.setCurrentTileIndex(cti);
                     attachChild(sp);
                     tilesListSprite.add(sp);
-                    x+=C.blocksSize;
-                    if (x == C.width - C.blocksSize) {
+                    x+=C.blocksSize * 1.5;
+                    if (x >= 10*120) {
                         x = 0;
-                        y += C.blocksSize;
+                        y += C.blocksSize * 1.5;
                     }
                 }
                 break;
@@ -526,6 +544,7 @@ public class SceneLevelEditor extends SceneBase {
                 tempLevelC = level.chasers;
                 tempLevelO = level.orbs;
                 tempLevelS = level.tiles;
+                tempLevelST = level.stars;
                 break;
             case Warps:
                 attachChild(returnIcon);

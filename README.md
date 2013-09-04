@@ -20,6 +20,7 @@ TODO LIST Ike:
 -medal menu rectangles
 -make 6 different colors of new orbs/chasers and animate them
 -finish and fail animations for chasers
+-success menu squares
 -new backgrounds
 -new blocks in theme: half, cracked, bomb, fire/spikes, key and keyhole (just do one grey one), touch tile, vanish, warp, finish
 -main menu
@@ -32,7 +33,8 @@ TODO LIST Ike:
 TODO List Levels:
 =========
 -consider 4 packs (only 100 levels)
-0-6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+-get some other level makers
+0-8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
 1-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
 2-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
 3-1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25

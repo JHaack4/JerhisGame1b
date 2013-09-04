@@ -9,10 +9,12 @@ import org.andengine.util.HorizontalAlign;
 
 public class GameDrawer {
 
+    public static Sprite bg;
     public static Text text = new Text(640,225,A.mFont,"",new TextOptions(HorizontalAlign.CENTER), A.vbom);
 	public static void draw(Level level, SceneBase scene)
     {
-        scene.attachChild(new Sprite(0,0,A.bg,A.vbom));
+        bg = new Sprite(0,0,A.bg,A.vbom);
+        scene.attachChild(bg);
 
         for (int x = C.xBlocks-1; x >= 0; x--) {
             for (int y = C.yBlocks-1; y >= 0; y--) {
@@ -42,7 +44,7 @@ public class GameDrawer {
 	
 	public static void unDraw(Level level, SceneBase scene)
     {
-        scene.detachChild(new Sprite(0,0,A.bg,A.vbom));
+        scene.detachChild(bg);
 
         for (int x = C.xBlocks-1; x >= 0; x--) {
             for (int y = C.yBlocks-1; y >= 0; y--) {

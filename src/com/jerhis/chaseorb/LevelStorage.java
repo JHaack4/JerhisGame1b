@@ -131,29 +131,29 @@ public class LevelStorage {
                         "  w0    b+  w2      Ca    w6    " +
                         "b+b+b+b+  b+b+b+b+b+b+b+b+b+b+b+";
             case 6:
-                return "le0#grassland#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "b+                              " +
-                        "  b+b+                        b+" +
-                        "    b+      Oa              b+  " +
-                        "b+    b+  b+            b+b+    " +
-                        "      b+b+            b+b+b+    " +
-                        "          b+b+        b+        " +
-                        "    b+  b+  b+      b+          " +
-                        "        b+    b+  b+            " +
-                        "  f!                        Ca  " +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(40, 247)$(1204, 260)$(454, 100)#8.0$11.0$15.0#" +
+                        "                                " +
+                        "                        f!      " +
+                        "                  d*d*b+b+b+    " +
+                        "              d*b+b]b]          " +
+                        "  d*        b+b]                " +
+                        "  b]      b+              Od    " +
+                        "    b+                          " +
+                        "      b+                  Cd    " +
+                        "        b+b+    b+d*d*b+b+b+b+  " +
+                        "                  b]b]          ";
             case 7:
-                return "le0#sunset#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "b+                              " +
-                        "  b+b+                        b+" +
-                        "    b+      Oa              b+  " +
-                        "b+    b+  b+            b+b+    " +
-                        "      b+b+            b+b+b+    " +
-                        "          b+b+        b+        " +
-                        "    b+  b+  b+      b+          " +
-                        "        b+    b+  b+            " +
-                        "  f!                        Ca  " +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(40, 390)$(1238, 110)$(760, 350)#7.0$9.5$13.0#" +
+                        "                                " +
+                        "                                " +
+                        "                          b+b+b+" +
+                        "                      vcvc      " +
+                        "              vcvc    vc    f!  " +
+                        "      vc                  Ocb+b+" +
+                        "  vc    vc                      " +
+                        "          vc              Cc    " +
+                        "              vcvcvc    b+b+b+  " +
+                        "                                ";
             case 8:
                 return "le0#sunset#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
                         "b+                              " +
