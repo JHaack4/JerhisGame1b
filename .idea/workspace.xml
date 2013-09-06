@@ -30,8 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -100,6 +98,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="39" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,37 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="C.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="C.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5596708" vertical-offset="0" max-vertical-offset="1394">
+            <state line="32" column="35" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="66" selection-start="3800" selection-end="3800" vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelStorage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LevelStorage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="73" selection-start="7848" selection-end="7848" vertical-scroll-proportion="0.0" vertical-offset="2710" max-vertical-offset="32283">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="901">
+            <state line="202" column="60" selection-start="9824" selection-end="9824" vertical-scroll-proportion="0.75514406" vertical-offset="3067" max-vertical-offset="32283">
               <folding />
             </state>
           </provider>
@@ -178,8 +167,8 @@
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" />
       </list>
     </option>
   </component>
@@ -215,7 +204,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,17 +288,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -587,7 +576,11 @@
       <created>1378262337042</created>
       <updated>1378262337042</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="improved controls, level 8,9">
+      <created>1378429660939</created>
+      <updated>1378429660939</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -652,18 +645,18 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20813397" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.791866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3653846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -689,7 +682,8 @@
     <MESSAGE value="basic tile" />
     <MESSAGE value="level editor bugs squashed" />
     <MESSAGE value="more level editor bugs squashed, level 6 &amp; 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="more level editor bugs squashed, level 6 &amp; 7" />
+    <MESSAGE value="improved controls, level 8,9" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved controls, level 8,9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -768,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.39679357" vertical-offset="266" max-vertical-offset="1037">
@@ -789,16 +776,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="73" selection-start="7848" selection-end="7848" vertical-scroll-proportion="0.0" vertical-offset="2710" max-vertical-offset="32283">
+        <state line="32" column="35" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5596708" vertical-offset="0" max-vertical-offset="1394">
+        <state line="21" column="39" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="60" selection-start="9824" selection-end="9824" vertical-scroll-proportion="0.75514406" vertical-offset="3067" max-vertical-offset="32283">
           <folding />
         </state>
       </provider>

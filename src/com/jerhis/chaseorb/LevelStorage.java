@@ -179,17 +179,17 @@ public class LevelStorage {
                         "b+b+b+b+    b+      b+          " +
                         "                                ";
             case 10:
-                return "le0#sunset#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
-                        "b+                              " +
-                        "  b+b+                        b+" +
-                        "    b+      Oa              b+  " +
-                        "b+    b+  b+            b+b+    " +
-                        "      b+b+            b+b+b+    " +
-                        "          b+b+        b+        " +
-                        "    b+  b+  b+      b+          " +
-                        "        b+    b+  b+            " +
-                        "  f!                        Ca  " +
-                        "b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+b+";
+                return "le##(94, 355)$(640, 50)$(1080, 50)#8.5$12.0$17.0#" +
+                        "                                " +
+                        "                                " +
+                        "    f!                          " +
+                        "  b+b+b+      tf          te    " +
+                        "                tf        Oc    " +
+                        "              tf                " +
+                        "  te            tf              " +
+                        "      te      tf          Cc    " +
+                        "                te      b+b+b+  " +
+                        "              te                ";
             case 11:
                 return "le0#sunset#(200,50)$(400,50)$(1000,50)#7.77$15.01$25.40#" +
                         "b+                              " +
