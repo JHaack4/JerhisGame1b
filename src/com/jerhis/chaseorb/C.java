@@ -8,11 +8,13 @@ public class C {
             case 2: return  "They jump if the gem is above them!";
             case 3: return  "They follow the matching gem!";
             case 4: return  "Navigate them through\nthe maze of warps!";
+            case 5: return  "Keep your focus\n  on the gem!";
             //case x: return "";
-            case 5: return  "Explore every possibility!";
-            case 6: return "Be wary of the fire!";
-            case 7: return "Be quick on the clouds!";
-
+            case 6: return  "Explore every possibility!";
+            case 7: return "Be wary of the fire!";
+            case 8: return "Be quick on the clouds!";
+            case 9: return "Unlock the hidden area!";
+            case 10: return "Touch the block to\ntoggle the state!";
 
         }
         return "";
@@ -30,12 +32,13 @@ public class C {
     public static int xBlocks = 16;
     public static int yBlocks = 10;
     public static int blocksSize = 80;
+    public static int orbRadius = 160;
 
     //size of pause area and return areas
     public static int pauseArea = 50;
 
     //buffer of orbs&chasers
-    public static int buffer = 35, jumpBuffer = 200, jump = 5;
+    public static int buffer = 35, jumpBuffer = 200, jump = 5, jumpWidth = 80;
     //chaser speeds
     public static double chaserGravity = -0.1, chaserMomentum = 1, chaserResistance = .2;
     public static double maxVelocity = 5, maxFall = -10;

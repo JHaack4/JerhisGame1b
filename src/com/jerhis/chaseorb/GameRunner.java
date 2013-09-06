@@ -102,7 +102,8 @@ public class GameRunner {
                         c.sideVelocity -= deltaTime * c.momentum;
                     else if (c.coord.x + C.buffer < o.coord.x-C.blocksSize/2)
                         c.sideVelocity += deltaTime * c.momentum;
-                    else if (c.upwardVelocity>=0 && !c.jumping && c.coord.y > o.coord.y && c.coord.y < o.coord.y +C.jumpBuffer) {
+                    if (c.upwardVelocity>=0 && !c.jumping && c.coord.y > o.coord.y && c.coord.y < o.coord.y +C.jumpBuffer &&
+                            c.coord.x < o.coord.x-40 + C.jumpWidth && c.coord.x + C.jumpWidth > o.coord.x-40) {
                         c.jumping = true;
                         c.upwardVelocity = C.jump;
                     }
@@ -131,7 +132,7 @@ public class GameRunner {
 		if (x < 40) x = 40;
 		switch (action) {
 		case TouchEvent.ACTION_DOWN:
-			double distance = 80;
+			double distance = C.orbRadius;
 			Orb closest = null;
 			for (Orb o : orbs) {
 				double orbDistance = A.distance(o.coord, new Coord(x, y));
