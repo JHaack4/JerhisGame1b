@@ -135,15 +135,15 @@ public class GameRunner {
 			double distance = C.orbRadius;
 			Orb closest = null;
 			for (Orb o : orbs) {
-				double orbDistance = A.distance(o.coord, new Coord(x, y));
-				if (orbDistance < distance) {
-					distance = orbDistance;
-					closest = o;
-				}
-			}
+            double orbDistance = A.distance(o.coord, new Coord(x, y));
+            if (orbDistance < distance) {
+                distance = orbDistance;
+                closest = o;
+            }
+        }
 			if (closest != null && closest.trackable) {
 				closest.pointerID = pointerID;
-				closest.coord = new Coord(x - 40, y - 40);
+				closest.coord = new Coord(x, y);
 				closest.setPosition(x - 40, y - 40);
 				closest.trackable = true;
 			} else {
@@ -153,7 +153,7 @@ public class GameRunner {
 		case TouchEvent.ACTION_MOVE:
 			for (Orb o : orbs)
 				if (pointerID == o.pointerID) {
-					o.coord = new Coord(x - 40, y - 40);
+					o.coord = new Coord(x, y);
 					o.setPosition(x - 40, y - 40);
 				}
 			break;
@@ -161,7 +161,7 @@ public class GameRunner {
 		case TouchEvent.ACTION_CANCEL:
 			for (Orb o : orbs)
 				if (pointerID == o.pointerID) {
-					o.coord = new Coord(x - 40, y - 40);
+					o.coord = new Coord(x, y);
 					o.setPosition(x - 40, y - 40);
 					o.pointerID = -1;
 				}

@@ -97,10 +97,10 @@ public class LevelStorage {
                         "                                ";
             case 3:
                 return "le##(1101, 340)$(1202, 192)$(466, 252)#7.5$10.0$15.0#" +
-                        "                        Oa      " +
                         "                                " +
-                        "                        f!      " +
-                        "                      h+h+h+    " +
+                        "                        Oa      " +
+                        "                          f!  " +
+                        "                        b+b+b+  " +
                         "    Od          b+              " +
                         "              b+  b+    Ca      " +
                         "b+          b+      b+b+b+b+b+b+" +
