@@ -40,9 +40,10 @@ public class LevelStorage {
     'w0'123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ : warp tile
             (their id is the order they appear, they target the # representing them )
 
-    CHASER/ORB IDS 'a-j' 'A-J'
-    'Ca' - 'Cj' : default chaser
-    'Oa' - 'Oj; : default orb
+    CHASER/ORB IDS
+    'Cr' or 'Or' denotes RANDOM!
+    'Ca' - 'Cf' : default chaser
+    'Oa' - 'Of; : default orb
 
     TO REMEMBER WHEN ADDING TILES:
     1) add picture in assets folder
@@ -75,23 +76,23 @@ public class LevelStorage {
                         "                                " +
                         "                                " +
                         "                                " +
-                        "    Oa                          " +
+                        "    Or                          " +
                         "                                " +
                         "                                " +
                         "b+                            b+" +
-                        "b+  Ca                    f!  b+" +
+                        "b+  Cr                    f!  b+" +
                         "  b+b+b+b+b+b+b+b+b+b+b+b+b+b+  " +
                         "                                ";
             case 2:
-                return "le##(120, 510)$(520, 310)$(1154, 310)#3.3$5.0$7.0#" +
+                return "le##(120, 510)$(320, 210)$(1154, 310)#3.3$5.0$7.0#" +
                         "                                " +
                         "                                " +
                         "                                " +
                         "                              b+" +
                         "                          f!  b+" +
-                        "    Oa                b+b+b+b+  " +
+                        "    Or    h+          b+b+b+b+  " +
                         "b+              b+b+b+          " +
-                        "b+  Ca    b+b+b+                " +
+                        "b+  Cr    b+b+b+                " +
                         "  b+b+b+b+                      " +
                         "                                ";
             case 3:
@@ -99,48 +100,48 @@ public class LevelStorage {
                         "                        Oa      " +
                         "                                " +
                         "                        f!      " +
-                        "                      b+b+b+    " +
-                        "    Ob          b+              " +
+                        "                      h+h+h+    " +
+                        "    Od          b+              " +
                         "              b+  b+    Ca      " +
                         "b+          b+      b+b+b+b+b+b+" +
-                        "b+  Cb  b+b+                    " +
+                        "b+  Cd  b+b+                    " +
                         "  b+b+b+                        " +
                         "                                ";
             case 4:
                 return "le##(345, 225)$(918, 350)$(1076, 352)#2.5$5.0$8.0#" +
                         "                                " +
                         "    w0              f!      w0  " +
-                        "                    b+b+b+b+b+  " +
+                        "                    b+h+h+h+b+  " +
                         "                    b+      b+  " +
                         "                    b+  w1  b+  " +
-                        "              Of      b+b+b+    " +
+                        "              Or      b+b+b+    " +
                         "                                " +
-                        "    w2        Cf          w0    " +
+                        "    w2        Cr          w0    " +
                         "    b+b+b+b+b+b+b+b+b+b+b+b+    " +
                         "                                ";
             case 5:
                 return "le##(133, 265)$(1162, 265)$(314, 582)#4.7$6.5$10.0#" +
                         "                                " +
                         "      f!                w2      " +
-                        "      b+b+b+b+b+b+b+b+b+b+      " +
+                        "      b+h+h+h+h+h+h+h+h+b+      " +
                         "      b+                b+      " +
                         "      b+w4            w0b+      " +
                         "        b+b+b+b+b+b+b+b+        " +
-                        "                b+          Oa  " +
+                        "                b+          Or  " +
                         "                b+              " +
-                        "  w5        w1  b+w4        Ca  " +
+                        "  w5        w1  b+w4        Cr  " +
                         "b+b+b+b+b+b+b+b+  b+b+b+b+b+b+b+";
             case 6:
                 return "le##(1045, 457)$(445, 635)$(258, 635)#4.5$8.0$12.0#" +
                         "                                " +
                         "  f!  w0                        " +
-                        "  b+b+b+        w7    w3        " +
-                        "                b+b+b+b+        " +
+                        "  h+h+h+        w7    w3        " +
+                        "                h+h+h+h+        " +
                         "                                " +
                         "      w2        w6              " +
-                        "      b+b+b+b+b+b+  Oa          " +
+                        "      h+b+h+h+h+h+  Or          " +
                         "        b+                      " +
-                        "  w0    b+  w2      Ca    w6    " +
+                        "  w0    b+  w2      Cr    w6    " +
                         "b+b+b+b+  b+b+b+b+b+b+b+b+b+b+b+";
             case 7:
                 return "le##(40, 247)$(1204, 260)$(454, 100)#8.0$11.0$15.0#" +
@@ -149,9 +150,9 @@ public class LevelStorage {
                         "                  d*d*b+b+b+    " +
                         "              d*b+b]b]          " +
                         "  d*        b+b]                " +
-                        "  b]      b+              Od    " +
+                        "  b]      b+              Or    " +
                         "    b+                          " +
-                        "      b+                  Cd    " +
+                        "      b+                  Cr    " +
                         "        b+b+    b+d*d*b+b+b+b+  " +
                         "                  b]b]          ";
             case 8:
@@ -161,9 +162,9 @@ public class LevelStorage {
                         "                          b+b+b+" +
                         "                      vcvc      " +
                         "              vcvc    vc    f!  " +
-                        "      vc                  Ocb+b+" +
+                        "      vc                  Orh+h+" +
                         "  vc    vc                      " +
-                        "          vc              Cc    " +
+                        "          vc              Cr    " +
                         "              vcvcvc    b+b+b+  " +
                         "                                ";
             case 9:
@@ -173,9 +174,9 @@ public class LevelStorage {
                         "                                " +
                         "              kb              Kb" +
                         "          kb        kb          " +
-                        "  Kr  Oe                  b+    " +
+                        "  Kr  Or                  b+    " +
                         "b+b+b+                  b+  kr  " +
-                        "f!kbkrCe              b+        " +
+                        "f!kbkrCr              b+        " +
                         "b+b+b+b+    b+      b+          " +
                         "                                ";
             case 10:
@@ -183,11 +184,11 @@ public class LevelStorage {
                         "                                " +
                         "                                " +
                         "    f!                          " +
-                        "  b+b+b+      tf          te    " +
-                        "                tf        Oc    " +
-                        "              tf                " +
+                        "  h+h+h+      tf          te    " +
+                        "                tf              " +
+                        "              tf          Or    " +
                         "  te            tf              " +
-                        "      te      tf          Cc    " +
+                        "      te      tf          Cr    " +
                         "                te      b+b+b+  " +
                         "              te                ";
             case 11:

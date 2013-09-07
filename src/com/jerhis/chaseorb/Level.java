@@ -69,11 +69,14 @@ public class Level {
         silver = Float.parseFloat(medalSC.next());
         bronze = Float.parseFloat(medalSC.next());
 
+        char random = 'r';
+        int pix = C.blocksSize;
+
         for (int y = 0; y < C.yBlocks; y++) {
             for (int x = 0; x < C.xBlocks; x++) {
                 char typeID = levelString.charAt(2*(x + C.xBlocks*y));
                 char charID = levelString.charAt(2*(x + C.xBlocks*y) + 1);
-                int pix = C.blocksSize;
+
 
                 if (typeID == ' ') tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
                 else if (typeID == 'f') tiles[x][y] = new TileFinish(new Coord(x*pix,y*pix),charID);
@@ -92,10 +95,18 @@ public class Level {
                 }
 
                 else if (typeID == 'C') {
+                    if (charID == 'r' && random == 'r')
+                        random = (char)(((int)(Math.random()*6)) + 'a');
+                    if (charID == 'r')
+                        charID = random;
                     tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
                     chasers.add(new Chaser(new Coord(x*pix,y*pix),charID));
                 }
                 else if (typeID == 'O') {
+                    if (charID == 'r' && random == 'r')
+                        random = (char)(((int)(Math.random()*6)) + 'a');
+                    if (charID == 'r')
+                        charID = random;
                     tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
                     orbs.add(new Orb(new Coord(x*pix+C.blocksSize/2,y*pix+C.blocksSize/2),charID));
                 }

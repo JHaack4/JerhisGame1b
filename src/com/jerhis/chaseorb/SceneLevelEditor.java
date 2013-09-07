@@ -162,7 +162,7 @@ public class SceneLevelEditor extends SceneBase {
                     if (currentTile != 0) {
                         TiledSprite sp = new TiledSprite(mx*80,my*80,selectedImage,A.vbom);
                         int cti = currentTile == 7? 1: 0;
-                        cti = currentTile == 5 ? 12 : cti;
+                        cti = currentTile == 5 || currentTile == 4? 12 : cti;
                         sp.setCurrentTileIndex(cti);
                         tilesListSprite.add(sp);
                         attachChild(sp);
@@ -526,9 +526,10 @@ public class SceneLevelEditor extends SceneBase {
                 {
                     ITiledTextureRegion i = A.tilesList.get(k);
                     TiledSprite sp = new TiledSprite(x + 20,y + 20,i,A.vbom);
+                    if (k==4) sp.setPosition(x+20,y+10);
                     sp.setScale(1.5f);
                     int cti = k == 7 ? 1 : 0;
-                    cti = k == 5 ? 12 : cti;
+                    cti = k == 5 || k == 4 ? 12 : cti;
                     sp.setCurrentTileIndex(cti);
                     attachChild(sp);
                     tilesListSprite.add(sp);
@@ -556,7 +557,7 @@ public class SceneLevelEditor extends SceneBase {
                 attachChild(overlay);
                 selectedBlock = new TiledSprite(C.editorCurrentBlockX,C.editorCurrentBlockY,selectedImage,A.vbom);
                 int cti = currentTile == 7 ? 1 : 0;
-                cti = currentTile == 5 ? 12 : cti;
+                cti = currentTile == 5 || currentTile == 4? 12 : cti;
                 selectedBlock.setCurrentTileIndex(cti);
                 attachChild(selectedBlock);
                 break;

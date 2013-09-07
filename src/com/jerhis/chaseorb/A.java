@@ -111,7 +111,7 @@ public class A {
         fireBaseTile = t("firebasetile", 1);
 		glassTile = t("glasstile", 1);
 		grassTile = t("grasstile", 1);
-		halfTile = t("halftile", 1);
+		halfTile = tt("halftile", 15,6);
 		iceTile = t("icetile", 1);
 		keyRed = t("keyred", 1);
 		keyBlue = t("keyblue", 1);
