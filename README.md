@@ -5,12 +5,13 @@ Graphics: Isaac Schwab
 
 TODO LIST Jordan:
 =========
--new tiles: push switch, wind, arrow pusher, spring, slip, water, color based tile, spike
--improve collisions (on final chaser)
--animate chasers (jumps, face both ways, finishing, death), orbs
+-new tiles: wind, arrow pusher, spring, slip, water, color based tile, spike
+-improve collisions (roll through corner)
+-lights up on 1
+-animate chasers (finishing, death), orbs
 -sound & music
 -buying from in game
--locked finished (gradual entry to finish tile, on chaser anim)
+-locked finished (gradual entry to finish tile)
 -color explodes on finish
 -gradual fail (with animation)
 -upload through trusted library (eclipse) after replace assets & classes
@@ -22,7 +23,7 @@ TODO LIST Ike:
 -finish and fail animations for chasers
 -success menu squares
 -new backgrounds
--new blocks in theme: half, cracked, bomb, fire/spikes, key and keyhole (just do one grey one), touch tile, vanish, warp, finish
+-new blocks in theme: half, cracked, bomb, fire/spikes, key and keyhole (just do one grey one), touch tile, vanish, warp, finish, push switch
 -main menu
 -new level select/ pack select/ editor select
 -pack screens
