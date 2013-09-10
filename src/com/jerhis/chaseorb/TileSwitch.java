@@ -5,8 +5,10 @@ import org.andengine.opengl.texture.region.ITiledTextureRegion;
 
 public class TileSwitch extends Tile {
 
-    public static boolean orange = false, green = false, purple = false;
+    public static boolean orange = false, green = false, purple = false, once = false;
     public static boolean orangeB = false, greenB = false, purpleB = false;
+
+    public boolean want;
 
     public TileSwitch(Coord coord, char charID) {
         super(coord, 'S', charID, getImage(charID));
@@ -14,6 +16,7 @@ public class TileSwitch extends Tile {
 
     @Override
     public void collision(Chaser chaser, CollisionType type) {
+
         switch (type) {
             case TOP: //basicTopCollision(chaser);
                 break;
@@ -29,7 +32,7 @@ public class TileSwitch extends Tile {
                     case 'g': greenB = true; break;
                     case 'p': purpleB = true; break;
                 }
-                setCurrentTileIndex(1);
+                want = true;
                 break;
             case NONE:
                 break;
@@ -38,19 +41,18 @@ public class TileSwitch extends Tile {
 
     @Override
     public void update(Scene s, float deltaTime) {
-        orange = orangeB;
-        green = greenB;
-        purple = purpleB;
-        orangeB=false;
-        greenB = false;
-        purpleB = false;
-        setCurrentTileIndex(0);
-        switch (charID) {
-            case 'o': if (orange) setCurrentTileIndex(1); break;
-            case 'g': if (green) setCurrentTileIndex(1); break;
-            case 'p': if (purple) setCurrentTileIndex(1); break;
+        if (!once) {
+            orange = orangeB;
+            green = greenB;
+            purple = purpleB;
+            orangeB=false;
+            greenB = false;
+            purpleB = false;
+            once = true;
         }
-
+        if (want) setCurrentTileIndex(1);
+        else setCurrentTileIndex(0);
+        want = false;
     }
 
     public static ITiledTextureRegion getImage(char charID) {

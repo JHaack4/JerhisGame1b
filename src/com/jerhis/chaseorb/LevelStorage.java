@@ -372,7 +372,7 @@ public class LevelStorage {
                         "b~  w1            c-b]  c/      " +
                         "b+kb                        sg  " +
                         "b<Krb+                  xx      " +
-                        "b<h+h+h+h+So      SgSpw0  c-b+d*" +
+                        "b<h+h+h+SoSo      SgSpw0  c-b+d*" +
                         "b<b&b^b_b+b+vcvcvcb+b+b+c[c/b+so";
     /*LEVEL PACK 1 -------------1--------------1-----------------1---------------------1--------1 */
             case 101:
