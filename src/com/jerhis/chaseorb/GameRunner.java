@@ -29,6 +29,7 @@ public class GameRunner {
     }
 
     private static void updateBlocks(SceneBase scene, Tile[][] tiles, float deltaTime) {
+        TileSwitch.once = false;
         for (int x = 0; x < C.xBlocks; x++)
             for (int y = 0; y < C.yBlocks; y++)
                 tiles[x][y].update(scene, deltaTime);
