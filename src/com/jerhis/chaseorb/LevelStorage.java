@@ -32,6 +32,9 @@ public class LevelStorage {
     'Kr' by: key tile (unlocks keyhole)
     'kr' by: keyhole tile
 
+    'So' gp: switch tile
+    'so' gp: switch block tile
+
     'tf' : touch tile (filled default)
     'te' : touch tile (empty default)
 
@@ -99,7 +102,7 @@ public class LevelStorage {
                 return "le##(1101, 340)$(1202, 192)$(466, 252)#7.5$10.0$15.0#" +
                         "                                " +
                         "                        Oa      " +
-                        "                          f!  " +
+                        "                          f!    " +
                         "                        b+b+b+  " +
                         "    Od          b+              " +
                         "              b+  b+    Ca      " +
@@ -364,13 +367,13 @@ public class LevelStorage {
                         "  w0                            " +
                         "  Kb            w2kr    Ob      " +
                         "              Oakrf!kr          " +
-                        "              Ca  b+      Cb    " +
+                        "  so    sp    Ca  b+      Cb    " +
                         "        tetftfb+b+c/d*b+b+b+    " +
                         "b~  w1            c-b]  c/      " +
-                        "b+kb                            " +
+                        "b+kb                        sg  " +
                         "b<Krb+                  xx      " +
-                        "b<h+h+h+h+            w0  c-b+d*" +
-                        "b<b&b^b_b+b+vcvcvcb+b+b+c[c/b+b+";
+                        "b<h+h+h+h+So      SgSpw0  c-b+d*" +
+                        "b<b&b^b_b+b+vcvcvcb+b+b+c[c/b+so";
     /*LEVEL PACK 1 -------------1--------------1-----------------1---------------------1--------1 */
             case 101:
                 return "le0##(200,650)$(400,650)$(1000,650)#7.77$15.01$25.40#" +

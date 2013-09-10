@@ -36,7 +36,8 @@ public class A {
 		bomb, dirtTile, emptyTile, finishTile, fireBaseTile, finishMedal, finishStar, fireTile,
 		glassTile, grassTile, halfTile, iceTile, keyRed, keyBlue, keyYellow, 
 		keyHoleRed, keyHoleBlue, keyHoleYellow, levelMedal, levelStar, metalTile, 
-		midTile, orb, smoke, star, snowTile, stoneTile, touchTile, warp;
+		midTile, orb, smoke, star, snowTile, stoneTile, touchTile, warp, switchBlockGreen, switchBlockOrange, switchBlockPurple,
+        switchOrange, switchGreen, switchPurple;
 	public static MyButtonGroup mainB, returnB, failB, finishB, pauseB, saveB, helpB;
     public static ArrayList<String> backgrounds = new ArrayList<String>();
     public static ArrayList<ITiledTextureRegion> tilesList = new ArrayList<ITiledTextureRegion>();
@@ -99,7 +100,7 @@ public class A {
 		selectedWarp = i("selectedwarp");
         packs = tt("packs",2,4);
 		bomb = t("bomb", 1);
-		chaser = t("chaser", 30);
+		chaser = t("chaser", 1);
 		cloudTile = t("cloudtile", 30);
 		basicTile = tt("basictile", 15,6);
 		dirtTile = t("dirttile", 1);
@@ -130,6 +131,12 @@ public class A {
 		stoneTile = t("stonetile", 1);
 		touchTile = t("touchtile", 2);
 		warp = t("warp", 30);
+        switchBlockGreen = t("switchblockgreen", 2);
+        switchBlockOrange = t("switchblockorange", 2);
+        switchBlockPurple = t("switchblockpurple", 2);
+        switchGreen = t("switchgreen", 2);
+        switchOrange = t("switchorange", 2);
+        switchPurple = t("switchpurple", 2);
 
         //id imp
         charCodes.add("  "); tilesList.add(emptyTile);
