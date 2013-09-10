@@ -30,7 +30,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/switchblockgreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/switchblockorange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/switchblockpurple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/switchgreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/switchorange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/switchpurple.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -101,7 +106,7 @@
       <file leaf-file-name="A.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="38" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.6252189" vertical-offset="0" max-vertical-offset="4998">
+            <state line="37" column="17" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.32749563" vertical-offset="51" max-vertical-offset="4998">
               <folding />
             </state>
           </provider>
@@ -262,6 +267,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chaseorb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JerhisGame1b" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JerhisGame1b" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JerhisGame1b" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JerhisGame1b" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gfx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,7 +741,11 @@
       <created>1378778562559</created>
       <updated>1378778562559</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="rotation">
+      <created>1378780056369</created>
+      <updated>1378780056369</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -932,7 +973,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="38" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.6252189" vertical-offset="0" max-vertical-offset="4998">
+        <state line="37" column="17" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.32749563" vertical-offset="51" max-vertical-offset="4998">
           <folding />
         </state>
       </provider>
