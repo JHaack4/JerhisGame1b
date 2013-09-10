@@ -24,6 +24,8 @@ public class Chaser extends TiledSprite {
     public boolean keyBlue = false;
     public boolean keyYellow = false;
 
+    public int startX;
+
 
     public Chaser(Coord start, char color)
     {
@@ -31,6 +33,8 @@ public class Chaser extends TiledSprite {
     	
         this.color = color;
         this.coord = start;
+
+        startX = (int) start.x;
 
         for(int k = 0; k < 43; k++)
             readyToWarp[k] = true;
@@ -50,7 +54,7 @@ public class Chaser extends TiledSprite {
     }
 
     public void update(float deltaTime) {
-    	//TODO anim
+    	setRotation(startX - (int)coord.x);
     }
 
 }
