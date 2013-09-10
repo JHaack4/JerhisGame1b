@@ -29,9 +29,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="err" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="rotat">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
+    <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -119,12 +117,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chaser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Chaser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="10" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.73540854" vertical-offset="574" max-vertical-offset="1122">
+            <state line="57" column="10" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="1122">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chaser.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/gfx/chaser.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -337,7 +342,6 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/gfx/background.png</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/gfx/chaser.png</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
@@ -731,7 +735,11 @@
       <created>1378778100870</created>
       <updated>1378778100870</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="rotation">
+      <created>1378778484050</created>
+      <updated>1378778484050</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -766,7 +774,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28944248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -774,8 +782,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13405797" sideWeight="0.6429419" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35705814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13405797" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35705814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -838,7 +846,8 @@
     <MESSAGE value="half tile made cool" />
     <MESSAGE value="switch tile" />
     <MESSAGE value="switch tile done" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch tile done" />
+    <MESSAGE value="rotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="rotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -888,11 +897,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/gfx/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/gfx/chaser.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -956,9 +960,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="10" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.73540854" vertical-offset="574" max-vertical-offset="1122">
+        <state line="57" column="10" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="1122">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/gfx/chaser.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
