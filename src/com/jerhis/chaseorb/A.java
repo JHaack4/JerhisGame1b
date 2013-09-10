@@ -43,7 +43,6 @@ public class A {
     public static ArrayList<ITiledTextureRegion> tilesList = new ArrayList<ITiledTextureRegion>();
     public static ArrayList<String> charCodes = new ArrayList<String>();
 	//public static Sound bounceSound;
-    //test
     public static String currentBG = "none", currentMenu = "none";
 	
 	
