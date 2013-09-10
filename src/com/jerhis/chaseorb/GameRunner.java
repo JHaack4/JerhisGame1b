@@ -15,8 +15,18 @@ public class GameRunner {
         chasersCollide(level.chasers, level.tiles);
         chasersStar(level.chasers, level.stars);
         
-        for (Chaser c: level.chasers)
+        for (Chaser c: level.chasers) {
         	c.setPosition((int)c.coord.x, (int)c.coord.y);
+            c.update(deltaTime);
+        }
+        /*for (Orb o: level.orbs) {
+
+        }
+        for (Star s: level.stars) {
+
+        }
+        */
+
         
         //TODO update chaser, orb, star for anim
         

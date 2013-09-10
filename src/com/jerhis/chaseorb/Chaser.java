@@ -54,7 +54,8 @@ public class Chaser extends TiledSprite {
     }
 
     public void update(float deltaTime) {
-    	setRotation(startX - (int)coord.x);
+    	setRotation( (int)coord.x - startX);
+        //setScale(1,1 + Math.abs((float)upwardVelocity * 0.1f));
     }
 
 }
