@@ -22,9 +22,9 @@ public class GameRunner {
         for (Orb o: level.orbs) {
             o.coord = new Coord(o.coord.x + A.anX*C.orbSpeed, o.coord.y + A.anY*C.orbSpeed);
             if (o.coord.x > 1240) o.coord.x = 1240;
-            if (o.coord.x > 760) o.coord.x = 760;
+            if (o.coord.y > 760) o.coord.y = 760;
             if (o.coord.x < 40) o.coord.x = 40;
-            if (o.coord.x < 40) o.coord.x = 40;
+            if (o.coord.y < 40) o.coord.y = 40;
             o.setPosition((int)o.coord.x - 40, (int)o.coord.y - 40);
             o.update(deltaTime);
         }
