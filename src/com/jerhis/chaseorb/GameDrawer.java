@@ -10,7 +10,6 @@ import org.andengine.util.HorizontalAlign;
 public class GameDrawer {
 
     public static Sprite bg;
-    public static Text text = new Text(640,225,A.mFont,"",new TextOptions(HorizontalAlign.CENTER), A.vbom);
 	public static void draw(Level level, SceneBase scene)
     {
         bg = new Sprite(0,0,A.bg,A.vbom);
@@ -39,6 +38,8 @@ public class GameDrawer {
         {
         	scene.attachChild(o);
         }
+
+        scene.setChildScene(A.analogOnScreenControl);
 
     }
 	
@@ -74,6 +75,8 @@ public class GameDrawer {
         {
         	scene.detachChild(o);
         }
+
+        scene.detachChild(A.analogOnScreenControl);
 
         //text.detachSelf();
     }

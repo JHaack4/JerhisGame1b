@@ -19,13 +19,18 @@ public class GameRunner {
         	c.setPosition((int)c.coord.x, (int)c.coord.y);
             c.update(deltaTime);
         }
-        /*for (Orb o: level.orbs) {
-
+        for (Orb o: level.orbs) {
+            o.coord = new Coord(o.coord.x + A.anX*C.orbSpeed, o.coord.y + A.anY*C.orbSpeed);
+            if (o.coord.x > 1240) o.coord.x = 1240;
+            if (o.coord.x > 760) o.coord.x = 760;
+            if (o.coord.x < 40) o.coord.x = 40;
+            if (o.coord.x < 40) o.coord.x = 40;
+            o.setPosition((int)o.coord.x - 40, (int)o.coord.y - 40);
+            o.update(deltaTime);
         }
-        for (Star s: level.stars) {
+        //for (Star s: level.stars) {
+        //}
 
-        }
-        */
 
         
         //TODO update chaser, orb, star for anim
@@ -143,7 +148,7 @@ public class GameRunner {
 		if (x < 40) x = 40;
 		switch (action) {
 		case TouchEvent.ACTION_DOWN:
-			double distance = C.orbRadius;
+			/*double distance = C.orbRadius;
 			Orb closest = null;
 			for (Orb o : orbs) {
             double orbDistance = A.distance(o.coord, new Coord(x, y));
@@ -157,9 +162,9 @@ public class GameRunner {
 				closest.coord = new Coord(x, y);
 				closest.setPosition(x - 40, y - 40);
 				closest.trackable = true;
-			} else {
+			} else {*/
 				tiles[((int) x) / C.blocksSize][((int) y) / C.blocksSize].touch();
-			}
+			/*}
 			break;
 		case TouchEvent.ACTION_MOVE:
 			for (Orb o : orbs)
@@ -175,7 +180,7 @@ public class GameRunner {
 					o.coord = new Coord(x, y);
 					o.setPosition(x - 40, y - 40);
 					o.pointerID = -1;
-				}
+				}*/
 		}
 	}
 

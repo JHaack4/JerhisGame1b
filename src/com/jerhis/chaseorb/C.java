@@ -33,6 +33,7 @@ public class C {
     public static int yBlocks = 10;
     public static int blocksSize = 80;
     public static int orbRadius = 160;
+    public static float orbSpeed = 7.0f;
 
     //size of pause area and return areas
     public static int pauseArea = 50;

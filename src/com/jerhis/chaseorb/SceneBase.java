@@ -32,7 +32,8 @@ public abstract class SceneBase extends Scene {
             }
         });
 
-    	return true;
+
+    	return super.onSceneTouchEvent(pSceneTouchEvent);
     }
     
     public void switchScene(final SceneBase b) {

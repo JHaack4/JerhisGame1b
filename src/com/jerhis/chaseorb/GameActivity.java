@@ -6,6 +6,10 @@ import org.andengine.engine.options.ScreenOrientation;
 import org.andengine.engine.options.resolutionpolicy.FillResolutionPolicy;
 import org.andengine.entity.scene.Scene;
 import org.andengine.opengl.font.FontFactory;
+import org.andengine.opengl.texture.TextureOptions;
+import org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas;
+import org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory;
+import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.ui.activity.BaseGameActivity;
 import org.andengine.util.color.Color;
 
@@ -15,8 +19,13 @@ import android.view.KeyEvent;
 public class GameActivity extends BaseGameActivity {
 
 	public Camera camera;
-	
-	@Override
+    private BitmapTextureAtlas mOnScreenControlTexture;
+    public ITextureRegion mOnScreenControlBaseTextureRegion;
+    public ITextureRegion mOnScreenControlKnobTextureRegion;
+
+
+
+    @Override
 	public EngineOptions onCreateEngineOptions() {
 		camera = new Camera(0,0,1280,800);
 		EngineOptions eo = new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new FillResolutionPolicy(), camera);
@@ -63,6 +72,13 @@ public class GameActivity extends BaseGameActivity {
 	public void onCreateResources(
 			OnCreateResourcesCallback pOnCreateResourcesCallback)
 			throws Exception {
+
+        BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");
+
+        this.mOnScreenControlTexture = new BitmapTextureAtlas(this.getTextureManager(), 256, 128, TextureOptions.BILINEAR);
+        this.mOnScreenControlBaseTextureRegion = BitmapTextureAtlasTextureRegionFactory.createFromAsset(this.mOnScreenControlTexture, this, "onscreen_control_base.png", 0, 0);
+        this.mOnScreenControlKnobTextureRegion = BitmapTextureAtlasTextureRegionFactory.createFromAsset(this.mOnScreenControlTexture, this, "onscreen_control_knob.png", 128, 0);
+        this.mOnScreenControlTexture.load();
 
 		A.mFont = FontFactory.create(this.getFontManager(), this.getTextureManager(), 
 				512, 512, Typeface.create(Typeface.DEFAULT, Typeface.BOLD), 64);

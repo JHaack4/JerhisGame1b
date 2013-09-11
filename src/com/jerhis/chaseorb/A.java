@@ -13,6 +13,8 @@ import org.andengine.audio.sound.Sound;
 import org.andengine.audio.sound.SoundFactory;
 import org.andengine.engine.Engine;
 import org.andengine.engine.camera.Camera;
+import org.andengine.engine.camera.hud.controls.AnalogOnScreenControl;
+import org.andengine.engine.camera.hud.controls.BaseOnScreenControl;
 import org.andengine.opengl.font.Font;
 import org.andengine.opengl.texture.ITexture;
 import org.andengine.opengl.texture.bitmap.BitmapTexture;
@@ -23,6 +25,7 @@ import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.util.adt.io.in.IInputStreamOpener;
 import org.andengine.util.debug.Debug;
 
+import android.opengl.GLES20;
 import android.util.Log;
 
 public class A {
@@ -44,7 +47,8 @@ public class A {
     public static ArrayList<String> charCodes = new ArrayList<String>();
 	//public static Sound bounceSound;
     public static String currentBG = "none", currentMenu = "none";
-	
+	public static AnalogOnScreenControl analogOnScreenControl;
+    public static float anX, anY;
 	
 	public static void load() {
 		b("");
@@ -55,9 +59,26 @@ public class A {
         backgrounds.add("grassland");
         backgrounds.add("mountain");
 
+        analogOnScreenControl = new AnalogOnScreenControl(32, 800-128-32, camera, A.activity.mOnScreenControlBaseTextureRegion, A.activity.mOnScreenControlKnobTextureRegion, 0.1f, 200, vbom, new AnalogOnScreenControl.IAnalogOnScreenControlListener() {
+            @Override
+            public void onControlChange(final BaseOnScreenControl pBaseOnScreenControl, final float pValueX, final float pValueY) {
+                anX = pValueX; anY = pValueY;
+            }
+
+            @Override
+            public void onControlClick(final AnalogOnScreenControl pAnalogOnScreenControl) {
+                //face.registerEntityModifier(new SequenceEntityModifier(new ScaleModifier(0.25f, 1, 1.5f), new ScaleModifier(0.25f, 1.5f, 1)));
+            }
+        });
+        analogOnScreenControl.getControlBase().setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);
+        analogOnScreenControl.getControlBase().setAlpha(0.5f);
+        analogOnScreenControl.getControlBase().setScaleCenter(0,128);
+        analogOnScreenControl.getControlBase().setScale(2f);
+        analogOnScreenControl.getControlKnob().setScale(2f);
+        analogOnScreenControl.refreshControlKnobPosition();
 
 
-		//buttons
+        //buttons
 		buttonDefault = t("button",2);
 		tAbout = i("textabout");
 		tHelp = i("texthelp");
@@ -176,6 +197,12 @@ public class A {
         charCodes.add("Ky"); tilesList.add(keyYellow);
         charCodes.add("ky"); tilesList.add(keyHoleYellow);
         charCodes.add("xx"); tilesList.add(bomb);
+        charCodes.add("So"); tilesList.add(switchOrange);
+        charCodes.add("so"); tilesList.add(switchBlockOrange);
+        charCodes.add("Sg"); tilesList.add(switchGreen);
+        charCodes.add("sg"); tilesList.add(switchBlockGreen);
+        charCodes.add("Sp"); tilesList.add(switchPurple);
+        charCodes.add("sp"); tilesList.add(switchBlockPurple);
 
     }
 	public static void loadSplash() {
