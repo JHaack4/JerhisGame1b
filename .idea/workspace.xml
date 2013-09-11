@@ -30,14 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/onscreen_control_base.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/gfx/onscreen_control_knob.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameDrawer.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameDrawer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -128,19 +121,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameRunner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="897" selection-end="897" vertical-scroll-proportion="0.73477405" vertical-offset="0" max-vertical-offset="3247">
+            <state line="24" column="42" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3247">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="C.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="C.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="36" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1411">
+            <state line="43" column="66" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.4437751" vertical-offset="510" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -224,8 +217,8 @@
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameDrawer.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
       </list>
     </option>
   </component>
@@ -682,7 +675,15 @@
       <created>1378781228882</created>
       <updated>1378781228882</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="controls?&#10;">
+      <created>1378861622051</created>
+      <updated>1378861622051</updated>
+    </task>
+    <task id="LOCAL-00039" summary="controls?&#10;">
+      <created>1378861755135</created>
+      <updated>1378861755135</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -725,8 +726,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13405797" sideWeight="0.6423445" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3576555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13405797" sideWeight="0.6431981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3568019" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -790,7 +791,8 @@
     <MESSAGE value="switch tile" />
     <MESSAGE value="switch tile done" />
     <MESSAGE value="rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="rotation" />
+    <MESSAGE value="controls?&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="controls?&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -837,7 +839,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="363" selection-end="363" vertical-scroll-proportion="-0.2651072" vertical-offset="357" max-vertical-offset="918" />
+        <state line="13" column="46" selection-start="363" selection-end="363" vertical-scroll-proportion="-0.2651072" vertical-offset="357" max-vertical-offset="918">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java">
@@ -908,16 +912,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="36" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1411">
+        <state line="24" column="42" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3247">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="897" selection-end="897" vertical-scroll-proportion="0.73477405" vertical-offset="0" max-vertical-offset="3247">
+        <state line="43" column="66" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.4437751" vertical-offset="510" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>

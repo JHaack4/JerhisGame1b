@@ -41,7 +41,7 @@ public class C {
     //buffer of orbs&chasers
     public static int buffer = 35, jumpBuffer = 200, jump = 5, jumpWidth = 80;
     //chaser speeds
-    public static double chaserGravity = -0.1, chaserMomentum = 1, chaserResistance = .2;
+    public static double chaserGravity = -0.1, chaserMomentum = .5, chaserResistance = .2;
     public static double maxVelocity = 5, maxFall = -10;
 
     //collision area ratios for star, blocks
