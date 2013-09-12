@@ -30,7 +30,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/jerhis/chaseorb/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/jerhis/chaseorb/R.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/jerhis/chaseorb/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/jerhis/restorecolor/BuildConfig.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\A.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Chaser.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Chaser.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Coord.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Coord.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\GameActivity.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameActivity.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\GameDrawer.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameDrawer.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Level.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\LevelPack.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/LevelPack.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\LevelStorage.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/LevelStorage.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\MyButtonGroup.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/MyButtonGroup.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Orb.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Orb.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneAbout.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneAbout.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneBase.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneBase.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneBuy.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneBuy.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneEditorSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneEditorSelect.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneGame.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneHelp.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneHelp.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneLevelEditor.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneLevelEditor.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneLevelSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneLevelSelect.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneLoading.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneLoading.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneMainMenu.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneMainMenu.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\ScenePackSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/ScenePackSelect.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneSplashLoading.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneSplashLoading.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Star.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Star.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Tile.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Tile.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileBasic.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileBasic.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileBomb.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileBomb.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileCracked.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileCracked.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileDeath.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileDeath.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileEmpty.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileEmpty.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileFinish.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileFinish.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileHalf.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileHalf.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileKey.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileKey.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileKeyhole.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileKeyhole.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileSwitch.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitch.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileSwitchBlock.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitchBlock.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileTouch.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileTouch.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileVanish.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileVanish.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileWarp.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileWarp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -52,6 +96,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -88,7 +133,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -99,86 +143,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="67" selection-start="3661" selection-end="3661" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="5559">
-              <folding>
-                <element signature="e#4257#4273#0" expanded="true" />
-                <element signature="e#4481#4497#0" expanded="true" />
-                <element signature="e#4664#4680#0" expanded="true" />
-                <element signature="e#4864#4880#0" expanded="true" />
-                <element signature="e#5095#5111#0" expanded="true" />
-                <element signature="e#5324#5340#0" expanded="true" />
-                <element signature="e#5549#5565#0" expanded="true" />
-                <element signature="e#11948#12113#0" expanded="true" />
-                <element signature="e#12107#12108#0" expanded="true" />
-                <element signature="e#12430#12655#0" expanded="true" />
-                <element signature="e#12640#12641#0" expanded="true" />
-                <element signature="e#13056#13281#0" expanded="true" />
-                <element signature="e#13266#13267#0" expanded="true" />
-              </folding>
+            <state line="48" column="66" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="5066">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="42" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3247">
+            <state line="24" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="C.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
+      <file leaf-file-name="SceneGame.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="66" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.4437751" vertical-offset="510" max-vertical-offset="1411">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Orb.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Orb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameDrawer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameDrawer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SceneBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="55" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelStorage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="374" column="35" selection-start="19871" selection-end="19871" vertical-scroll-proportion="0.0" vertical-offset="6341" max-vertical-offset="32351">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="10" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1683">
+            <state line="219" column="38" selection-start="5944" selection-end="5944" vertical-scroll-proportion="0.8015717" vertical-offset="3162" max-vertical-offset="4318">
               <folding />
             </state>
           </provider>
@@ -203,12 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileBasic.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneLevelEditor.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileHalf.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/Level.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileSwitchBlock.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java" />
@@ -219,14 +198,19 @@
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameDrawer.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-18" />
-    <option name="y" value="6" />
-    <option name="width" value="1444" />
-    <option name="height" value="1002" />
+    <option name="x" value="640" />
+    <option name="width" value="1256" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -255,7 +239,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,55 +285,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chaseorb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JerhisGame1b" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JerhisGame1b" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JerhisGame1b" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JerhisGame1b" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gfx" />
+              <option name="myItemId" value="restorecolor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -683,7 +635,15 @@
       <created>1378861755135</created>
       <updated>1378861755135</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="controls?&#10;">
+      <created>1378862455045</created>
+      <updated>1378862455045</updated>
+    </task>
+    <task id="LOCAL-00041" summary="controls?">
+      <created>1378862536067</created>
+      <updated>1378862536067</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -707,7 +667,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="6" width="1444" height="1002" extended-state="0" />
+    <frame x="640" y="0" width="1256" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -721,13 +681,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28859857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5527578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13405797" sideWeight="0.6431981" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3568019" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15520135" sideWeight="0.6438849" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3561151" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -748,18 +708,18 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20813397" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.791866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3653846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -792,13 +752,15 @@
     <MESSAGE value="switch tile done" />
     <MESSAGE value="rotation" />
     <MESSAGE value="controls?&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="controls?&#10;" />
+    <MESSAGE value="&#10;&#10;" />
+    <MESSAGE value="controls?" />
+    <option name="LAST_COMMIT_MESSAGE" value="controls?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/TileSwitch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="21" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.37621832" vertical-offset="725" max-vertical-offset="1241">
           <folding>
@@ -807,14 +769,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/Chaser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="42" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Tile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="543" selection-end="543" vertical-scroll-proportion="0.56567425" vertical-offset="0" max-vertical-offset="2890">
           <folding>
@@ -823,7 +785,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/TileSwitchBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitchBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="24" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1496">
           <folding>
@@ -844,30 +806,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/LevelStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.64425427" vertical-offset="51" max-vertical-offset="4267">
+        <state line="374" column="35" selection-start="19875" selection-end="19875" vertical-scroll-proportion="0.0" vertical-offset="6341" max-vertical-offset="32351">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="35" selection-start="19871" selection-end="19871" vertical-scroll-proportion="0.0" vertical-offset="6341" max-vertical-offset="32351">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="10" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="918">
+        <state line="34" column="55" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
@@ -877,51 +825,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameDrawer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="934" max-vertical-offset="1445">
+        <state line="72" column="30" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.0" vertical-offset="698" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/Orb.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="731">
+        <state line="64" column="35" selection-start="2694" selection-end="2694" vertical-scroll-proportion="0.79435486" vertical-offset="694" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/A.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="67" selection-start="3661" selection-end="3661" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="5559">
-          <folding>
-            <element signature="e#4257#4273#0" expanded="true" />
-            <element signature="e#4481#4497#0" expanded="true" />
-            <element signature="e#4664#4680#0" expanded="true" />
-            <element signature="e#4864#4880#0" expanded="true" />
-            <element signature="e#5095#5111#0" expanded="true" />
-            <element signature="e#5324#5340#0" expanded="true" />
-            <element signature="e#5549#5565#0" expanded="true" />
-            <element signature="e#11948#12113#0" expanded="true" />
-            <element signature="e#12107#12108#0" expanded="true" />
-            <element signature="e#12430#12655#0" expanded="true" />
-            <element signature="e#12640#12641#0" expanded="true" />
-            <element signature="e#13056#13281#0" expanded="true" />
-            <element signature="e#13266#13267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3247">
+        <state line="48" column="66" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="5066">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="66" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.4437751" vertical-offset="510" max-vertical-offset="1411">
+        <state line="70" column="0" selection-start="1844" selection-end="1844" vertical-scroll-proportion="1.2495089" vertical-offset="554" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/Orb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.13359529" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="38" selection-start="5944" selection-end="5944" vertical-scroll-proportion="0.8015717" vertical-offset="3162" max-vertical-offset="4318">
           <folding />
         </state>
       </provider>
