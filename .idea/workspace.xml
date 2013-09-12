@@ -30,51 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/jerhis/chaseorb/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/jerhis/chaseorb/R.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/jerhis/chaseorb/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/jerhis/restorecolor/BuildConfig.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\A.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Chaser.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Chaser.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Coord.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Coord.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\GameActivity.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameActivity.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\GameDrawer.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameDrawer.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Level.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\LevelPack.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/LevelPack.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\LevelStorage.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/LevelStorage.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\MyButtonGroup.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/MyButtonGroup.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Orb.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Orb.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneAbout.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneAbout.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneBase.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneBase.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneBuy.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneBuy.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneEditorSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneEditorSelect.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneGame.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneHelp.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneHelp.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneLevelEditor.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneLevelEditor.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneLevelSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneLevelSelect.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneLoading.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneLoading.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneMainMenu.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneMainMenu.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\ScenePackSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/ScenePackSelect.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\SceneSplashLoading.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneSplashLoading.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Star.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Star.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\Tile.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Tile.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileBasic.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileBasic.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileBomb.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileBomb.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileCracked.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileCracked.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileDeath.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileDeath.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileEmpty.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileEmpty.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileFinish.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileFinish.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileHalf.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileHalf.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileKey.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileKey.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileKeyhole.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileKeyhole.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileSwitch.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitch.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileSwitchBlock.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitchBlock.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileTouch.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileTouch.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileVanish.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileVanish.java" />
-      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\JerhisGame1b\src\com\jerhis\chaseorb\TileWarp.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/TileWarp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -160,10 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SceneGame.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="C.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="43" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.6572581" vertical-offset="541" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="38" selection-start="5944" selection-end="5944" vertical-scroll-proportion="0.8015717" vertical-offset="3162" max-vertical-offset="4318">
+            <state line="215" column="18" selection-start="5827" selection-end="5827" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="4318">
               <folding />
             </state>
           </provider>
@@ -199,11 +164,11 @@
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/C.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameDrawer.java" />
-        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
       </list>
     </option>
   </component>
@@ -643,7 +608,11 @@
       <created>1378862536067</created>
       <updated>1378862536067</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="controls? 2">
+      <created>1378952322429</created>
+      <updated>1378952322429</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -729,7 +698,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="test push" />
     <MESSAGE value="little stuffs" />
     <MESSAGE value="little stuffs 2" />
     <MESSAGE value="explosion" />
@@ -754,7 +722,8 @@
     <MESSAGE value="controls?&#10;" />
     <MESSAGE value="&#10;&#10;" />
     <MESSAGE value="controls?" />
-    <option name="LAST_COMMIT_MESSAGE" value="controls?" />
+    <MESSAGE value="controls? 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="controls? 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -832,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="35" selection-start="2694" selection-end="2694" vertical-scroll-proportion="0.79435486" vertical-offset="694" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="66" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="5066">
@@ -869,7 +831,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="38" selection-start="5944" selection-end="5944" vertical-scroll-proportion="0.8015717" vertical-offset="3162" max-vertical-offset="4318">
+        <state line="215" column="18" selection-start="5827" selection-end="5827" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="4318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="43" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.6572581" vertical-offset="541" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>

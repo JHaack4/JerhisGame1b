@@ -42,7 +42,7 @@ public class C {
     public static int buffer = 35, jumpBuffer = 200, jump = 5, jumpWidth = 80;
     //chaser speeds
     public static double chaserGravity = -0.1, chaserMomentum = 1, chaserResistance = .4;
-    public static double maxVelocity = 3, maxFall = -10;
+    public static double maxVelocity = 5, maxFall = -10;
 
     //collision area ratios for star, blocks
     public static double starRatio = 0.75;
