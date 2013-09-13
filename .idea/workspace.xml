@@ -30,7 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f7ee-1070-427f-957e-b254d340fb3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java" afterPath="$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JerhisGame1 - CombineTest.iws" />
@@ -101,7 +102,7 @@
       <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="66" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="5066">
+            <state line="48" column="66" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="5661">
               <folding />
             </state>
           </provider>
@@ -110,16 +111,34 @@
       <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+            <state line="89" column="13" selection-start="2828" selection-end="2828" vertical-scroll-proportion="0.0" vertical-offset="909" max-vertical-offset="3553">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="C.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="40" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.60117877" vertical-offset="1530" max-vertical-offset="2159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="60" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="43" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.6572581" vertical-offset="541" max-vertical-offset="1411">
+            <state line="35" column="19" selection-start="1305" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -128,7 +147,7 @@
       <file leaf-file-name="SceneGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="18" selection-start="5827" selection-end="5827" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="4318">
+            <state line="215" column="18" selection-start="5827" selection-end="5827" vertical-scroll-proportion="0.0" vertical-offset="3485" max-vertical-offset="4318">
               <folding />
             </state>
           </provider>
@@ -153,10 +172,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/LevelStorage.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/TileSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/Chaser.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/GameDrawer.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/chaseorb/SceneBase.java" />
@@ -169,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/SceneGame.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java" />
       </list>
     </option>
   </component>
@@ -203,7 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,17 +275,18 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -612,7 +631,11 @@
       <created>1378952322429</created>
       <updated>1378952322429</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="controls? 2">
+      <created>1378953103351</created>
+      <updated>1378953103351</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -655,7 +678,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15520135" sideWeight="0.6438849" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21392618" sideWeight="0.6438849" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3561151" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -677,18 +700,18 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178017" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20813397" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.791866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3653846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3653846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -729,15 +752,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/TileSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="21" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.37621832" vertical-offset="725" max-vertical-offset="1241">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/Chaser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="42" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1122">
@@ -766,13 +780,6 @@
     <entry file="file://$PROJECT_DIR$/assets/gfx/chaser.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="363" selection-end="363" vertical-scroll-proportion="-0.2651072" vertical-offset="357" max-vertical-offset="918">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/LevelStorage.java">
@@ -822,9 +829,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553">
+        <state line="35" column="19" selection-start="1305" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="60" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
@@ -836,9 +850,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/C.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="43" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.6572581" vertical-offset="541" max-vertical-offset="1411">
+        <state line="89" column="13" selection-start="2828" selection-end="2828" vertical-scroll-proportion="0.0" vertical-offset="909" max-vertical-offset="3553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/restorecolor/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="40" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.60117877" vertical-offset="1530" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>

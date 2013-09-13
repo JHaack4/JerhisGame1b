@@ -104,14 +104,14 @@ public class Level {
                     tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
                     chasers.add(new Chaser(new Coord(x*pix,y*pix),charID));
                 }
-                else if (typeID == 'O') {
-                    if (charID == 'r' && random == 'r')
-                        random = (char)(((int)(Math.random()*6)) + 'a');
-                    if (charID == 'r')
-                        charID = random;
-                    tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
-                    orbs.add(new Orb(new Coord(x*pix+C.blocksSize/2,y*pix+C.blocksSize/2),charID));
-                }
+                //else if (typeID == 'O') {
+                    //if (charID == 'r' && random == 'r')
+                    //    random = (char)(((int)(Math.random()*6)) + 'a');
+                    //if (charID == 'r')
+                     //   charID = random;
+                    //tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
+                    //orbs.add(new Orb(new Coord(x*pix+C.blocksSize/2,y*pix+C.blocksSize/2),charID));
+                //}
                 else tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
             }
         }
