@@ -6,12 +6,32 @@ import org.andengine.input.touch.TouchEvent;
 
 public class GameRunner {
 
-    public static float X = -1, Y = -1;
+    public static float X = -1, Y = -1, lastY = -1, jumpTime = 0;
     public static int pointerID = -1;
 	public static SceneGame.GameState update(SceneBase scene, float deltaTime, Level level)
     {
+        boolean jump = false;
+        if (X == -1 && Y == -1) {
+            lastY = -1;
+            jumpTime = 0;
+        }
+        else {
+            if (Y < lastY) {
+                jumpTime += deltaTime;
+                if (Y + 100 < lastY && (0-Y+lastY)/jumpTime > 400/100) {
+                    jump = true;
+                    lastY = Y;
+                    jumpTime = 0;
+                }
+            }
+            else {
+                jumpTime = 0;
+                lastY = Y;
+            }
+        }
+
         updateBlocks(scene, level.tiles, deltaTime);
-        chasersFollowOrbs(level.chasers, level.orbs, deltaTime);
+        chasersFollowOrbs(level.chasers, jump, deltaTime);
         chasersFallDown(level.chasers, deltaTime);
         chasersMove(level.chasers, deltaTime);
         chasersCollide(level.chasers, level.tiles);
@@ -27,10 +47,6 @@ public class GameRunner {
         //for (Star s: level.stars) {
         //}
 
-
-        
-        //TODO update chaser, orb, star for anim
-        
         if (chasersFinish(level.chasers))
             return SceneGame.GameState.Finish;
         else if (chasersDie(level.chasers))
@@ -103,7 +119,7 @@ public class GameRunner {
         }
     }
 
-    private static void chasersFollowOrbs(ArrayList<Chaser> chasers, ArrayList<Orb> orbs, float deltaTime) {
+    private static void chasersFollowOrbs(ArrayList<Chaser> chasers, boolean jump, float deltaTime) {
         for (Chaser c: chasers)
         {
             if (c.finished) continue;
@@ -115,8 +131,12 @@ public class GameRunner {
                         c.sideVelocity -= deltaTime * c.momentum;
                     else if (c.coord.x + C.buffer < X-C.blocksSize/2)
                         c.sideVelocity += deltaTime * c.momentum;
-                    if (c.upwardVelocity>=0 && !c.jumping && c.coord.y > Y && c.coord.y < Y +C.jumpBuffer &&
-                            c.coord.x < X-40 + C.jumpWidth && c.coord.x + C.jumpWidth > X-40) {
+                    if (c.upwardVelocity>=0 && !c.jumping && Math.abs(c.coord.y - Y) < 80 &&
+                            Math.abs(c.coord.x - X) < 80) {
+                        c.jumping = true;
+                        c.upwardVelocity = C.jump;
+                    }
+                    if (c.upwardVelocity>=0 && !c.jumping && jump) {
                         c.jumping = true;
                         c.upwardVelocity = C.jump;
                     }

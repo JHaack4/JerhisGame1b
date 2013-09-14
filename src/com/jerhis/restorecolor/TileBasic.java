@@ -12,7 +12,8 @@ public class TileBasic extends Tile {
 
 	@Override
 	public void collision(Chaser chaser, CollisionType type) {
-        if (charID == '+' && type != CollisionType.NONE){
+        if (charID == '+' && type != CollisionType.NONE ) {
+            if (type != CollisionType.TOP || chaser.coord.x - coord.x > -40 && chaser.coord.x - coord.x < 40)
             switch (chaser.color) {
                 case 'a': setFrames(new int[]{13,14,0,1,2,3,4,5,6,7,8,9,10,11,12}, 0); break;
                 case 'b': setFrames(new int[]{28,29,15,16,17,18,19,20,21,22,23,24,25,26,27}, 0); break;

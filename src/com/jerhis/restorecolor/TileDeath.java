@@ -20,7 +20,7 @@ public class TileDeath extends Tile {
             break;
         case BOTTOM: basicBottomCollision(chaser);
             break;
-        case IN: chaser.dead = true;
+        case IN: chaser.dying = true;
             break;
         case NONE:
             break;

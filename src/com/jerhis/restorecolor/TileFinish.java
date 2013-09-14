@@ -13,8 +13,8 @@ public class TileFinish extends Tile {
     public void collision(Chaser chaser, CollisionType type) {
         if (type == CollisionType.IN)
         {
-            chaser.finished = true;
-            chaser.coord = coord.clone();
+            chaser.finishing = true;
+            chaser.finCoord = coord.clone();
         }
     }
 
